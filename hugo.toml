@@ -1,10 +1,13 @@
 baseURL = "https://example.org"
+languageCode = 'en-us'
+title = 'Babalar Press'
+theme = 'bptheme'
 
 disableKinds = ["page", "section", "taxonomy", "term"]
 
 [module]
   [module.hugoVersion]
-    extended = false
+    extended = true
     min      = "0.112.0"
   [[module.mounts]]
     source = "assets"

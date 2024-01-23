@@ -1,5 +1,5 @@
 ---
-title: TailwindCSS Basic Hugo Starter
+title: Babalar Press
 ---
 
 ## Overview
