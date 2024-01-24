@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "?xml",
       "article",
       "body",
       "button",
@@ -8,29 +9,37 @@
       "h2",
       "head",
       "html",
+      "image",
       "link",
       "meta",
       "script",
+      "svg",
       "title"
     ],
     "classes": [
+      "bg-[#e9e6ed]",
       "bg-[#f1ff78]",
       "bg-[green]",
       "container",
       "flex",
-      "h-20",
-      "h-40",
+      "h-auto",
       "items-center",
       "justify-center",
       "lg:mx-auto",
-      "my-10",
+      "lg:w-[35]",
+      "md:w-20",
+      "mx-auto",
       "my-4",
       "p-4",
       "prose",
       "px-4",
       "rounded-full",
+      "sm:w-10",
+      "sm:w-5",
       "text-4xl"
     ],
-    "ids": null
+    "ids": [
+      "Layer_1"
+    ]
   }
 }

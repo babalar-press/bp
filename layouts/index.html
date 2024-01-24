@@ -1,16 +1,14 @@
 {{ define "main" }}
 
-<div class="h-20 rounded-full bg-[#f1ff78]">
+<div class="h-auto rounded-full bg-[#f1ff78]">
+  <div class="flex items-center justify-center">
+    <div class="sm:w-10 md:w-20 lg:w-[35] mx-auto">
+  {{ readFile "assets/images/bplogo1-3d-v2-blue.svg" | safeHTML }}
 </div>
-
-<article class="prose">
-
-    <h2 class="text-4xl">Babalar Press</h2>
-    <div>
-      <button class="bg-[green] p-4">Share</button>
-    </div>
+</div>
+</div>
 
     <h2 class="text-4xl">{{ .Title }}</h2>
     {{ .Content }}..
-  </article>
+
 {{ end }}
