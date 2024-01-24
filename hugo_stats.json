@@ -26,15 +26,22 @@
       "ul"
     ],
     "classes": [
+      "bg-[#f1ff78]",
       "bg-[green]",
+      "bg-lemon-yellow",
       "container",
+      "flex",
+      "h-20",
       "highlight",
+      "items-center",
+      "justify-center",
       "lg:mx-auto",
       "lg:prose-xl",
-      "my-10",
+      "my-4",
       "p-4",
       "prose",
       "px-4",
+      "rounded-full",
       "text-4xl"
     ],
     "ids": [

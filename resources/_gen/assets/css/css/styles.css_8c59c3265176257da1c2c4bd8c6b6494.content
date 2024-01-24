@@ -879,9 +879,28 @@ video {
 .prose :where(.prose > :last-child):not(:where([class~="not-prose"] *)) {
   margin-bottom: 0;
 }
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+}
+.h-20 {
+  height: 5rem;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.bg-\[\#f1ff78\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 255 120 / var(--tw-bg-opacity));
 }
 .bg-\[green\] {
   --tw-bg-opacity: 1;
