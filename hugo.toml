@@ -29,16 +29,62 @@ disableKinds = ["page", "section", "taxonomy", "term"]
     source = "assets/.*\\.(.*)$"
     target = "$1"
 
+defaultContentLanguage = 'kz'
+defaultContentLanguageInSubdir = true
+
 [languages]
-  [languages.en]
-    contentDir = 'content/english'
-    languageName = 'English'
-    weight = 10
+
   [languages.kz]
     contentDir = 'content/kazakh'
-    languageName = 'Kazakh'
+    languageCode = 'kz'
+    languageName = 'KZ'
+    weight = 10
+
+    [[languages.kz.menu.main]]
+      name = 'Басты бет'
+      url = '/'
+
+    [[languages.kz.menu.main]]
+      name = 'Біз жайлы'
+      url = '/about'
+
+    [[languages.kz.menu.main]]
+      name = 'Бізбен хабарлас'
+      url = '/contact'
+
+  [languages.en]
+    contentDir = 'content/english'
+    languageCode = 'en'
+    languageName = 'EN'
     weight = 20
+
+    [[languages.en.menu.main]]
+      name = 'Home'
+      url = '/'
+
+    [[languages.en.menu.main]]
+      name = 'About'
+      url = '/about'
+
+    [[languages.en.menu.main]]
+      name = 'Contact'
+      url = '/contact'
+
   [languages.ru]  
     contentDir = 'content/russian'
+    languageCode = 'RU'
     languageName = 'Russian'
     weight = 30
+
+    [[languages.ru.menu.main]]
+      name = 'Главная'
+      url = '/'
+
+    [[languages.ru.menu.main]]
+      name = 'О нас'
+      url = '/about'
+
+    [[languages.ru.menu.main]]
+      name = 'Связаться с нами'
+      url = '/contact'
+
