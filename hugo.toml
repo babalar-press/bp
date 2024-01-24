@@ -28,3 +28,17 @@ disableKinds = ["page", "section", "taxonomy", "term"]
   [[build.cachebusters]]
     source = "assets/.*\\.(.*)$"
     target = "$1"
+
+[languages]
+  [languages.en]
+    contentDir = 'content/english'
+    languageName = 'English'
+    weight = 10
+  [languages.kz]
+    contentDir = 'content/kazakh'
+    languageName = 'Kazakh'
+    weight = 20
+  [languages.ru]  
+    contentDir = 'content/russian'
+    languageName = 'Russian'
+    weight = 30

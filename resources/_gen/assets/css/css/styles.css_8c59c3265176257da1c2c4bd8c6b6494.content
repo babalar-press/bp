@@ -890,6 +890,9 @@ video {
 .flex {
   display: flex;
 }
+.h-60 {
+  height: 15rem;
+}
 .h-auto {
   height: auto;
 }
@@ -966,5 +969,9 @@ html {
 
   .lg\:w-\[35\] {
     width: 35;
+  }
+
+  .lg\:w-\[60\] {
+    width: 60;
   }
 }
