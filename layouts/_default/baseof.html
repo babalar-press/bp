@@ -17,6 +17,9 @@
   </head>
   <body class="my-4 bg-[#e9e6ed]">
     <div class="container px-4 lg:mx-auto">
+    {{- partial "header.html" . -}}
+    </div>
+    <div class="container px-4 lg:mx-auto">
       {{ block "main" . }}{{ end }}
     </div>
   </body>
