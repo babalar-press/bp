@@ -1,42 +1,29 @@
 {
   "htmlElements": {
     "tags": [
-      "a",
       "article",
-      "blockquote",
       "body",
       "button",
-      "code",
       "div",
-      "em",
-      "h1",
       "h2",
-      "h3",
       "head",
       "html",
-      "li",
       "link",
       "meta",
-      "ol",
-      "p",
-      "pre",
       "script",
-      "strong",
-      "title",
-      "ul"
+      "title"
     ],
     "classes": [
       "bg-[#f1ff78]",
       "bg-[green]",
-      "bg-lemon-yellow",
       "container",
       "flex",
       "h-20",
-      "highlight",
+      "h-40",
       "items-center",
       "justify-center",
       "lg:mx-auto",
-      "lg:prose-xl",
+      "my-10",
       "my-4",
       "p-4",
       "prose",
@@ -44,20 +31,6 @@
       "rounded-full",
       "text-4xl"
     ],
-    "ids": [
-      "block-elements",
-      "blockquotes",
-      "code",
-      "code-blocks",
-      "emphasis",
-      "headers",
-      "links",
-      "lists",
-      "overview",
-      "paragraphs-and-line-breaks",
-      "philosophy",
-      "span-elements",
-      "this-is-a-header"
-    ]
+    "ids": null
   }
 }
