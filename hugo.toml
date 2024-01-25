@@ -71,30 +71,30 @@ defaultContentLanguageInSubdir = true
 
     [[menu.main]]
       identifier = 'home'
-      url = '/'
+      url = '/en/'
       weight = 11
 
     [[menu.main]]
       identifier = 'about'
-      url = '/about'
+      url = 'en/about/'
       weight = 13
 
     [[menu.main]]
       identifier = 'contact'
-      url = '/contact'
+      url = 'en/contact/'
       weight = 15
 
     [[menu.main]]
       identifier = 'home'
-      url = '/'
+      url = '/ru'
       weight = 17
 
     [[menu.main]]
       identifier = 'about'
-      url = '/about'
+      url = 'ru/about/'
       weight = 19
 
     [[menu.main]]
       identifier = 'contact'
-      url = '/contact'
+      url = 'ru/contact/'
 
