@@ -40,51 +40,61 @@ defaultContentLanguageInSubdir = true
     languageName = 'KZ'
     weight = 10
 
-    [[languages.kz.menu.main]]
-      name = 'Басты бет'
-      url = '/'
-
-    [[languages.kz.menu.main]]
-      name = 'Біз жайлы'
-      url = '/about'
-
-    [[languages.kz.menu.main]]
-      name = 'Бізбен хабарлас'
-      url = '/contact'
-
   [languages.en]
     contentDir = 'content/english'
     languageCode = 'en'
     languageName = 'EN'
     weight = 20
 
-    [[languages.en.menu.main]]
-      name = 'Home'
-      url = '/'
-
-    [[languages.en.menu.main]]
-      name = 'About'
-      url = '/about'
-
-    [[languages.en.menu.main]]
-      name = 'Contact'
-      url = '/contact'
-
   [languages.ru]  
     contentDir = 'content/russian'
-    languageCode = 'RU'
+    languageCode = 'ru'
     languageName = 'Russian'
     weight = 30
 
-    [[languages.ru.menu.main]]
-      name = 'Главная'
+
+    [[menu.main]]
+      identifier = 'home'
       url = '/'
+      weight = '2'
 
-    [[languages.ru.menu.main]]
-      name = 'О нас'
+    [[menu.main]]
+      identifier = 'about'
       url = '/about'
+      weight = '7'
 
-    [[languages.ru.menu.main]]
-      name = 'Связаться с нами'
+    [[menu.main]]
+      identifier = 'contact'
+      url = '/contact'
+      weight = 9
+
+
+    [[menu.main]]
+      identifier = 'home'
+      url = '/'
+      weight = 11
+
+    [[menu.main]]
+      identifier = 'about'
+      url = '/about'
+      weight = 13
+
+    [[menu.main]]
+      identifier = 'contact'
+      url = '/contact'
+      weight = 15
+
+    [[menu.main]]
+      identifier = 'home'
+      url = '/'
+      weight = 17
+
+    [[menu.main]]
+      identifier = 'about'
+      url = '/about'
+      weight = 19
+
+    [[menu.main]]
+      identifier = 'contact'
       url = '/contact'
 
