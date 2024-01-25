@@ -49,7 +49,7 @@ defaultContentLanguageInSubdir = true
   [languages.ru]  
     contentDir = 'content/russian'
     languageCode = 'ru'
-    languageName = 'Russian'
+    languageName = 'RU'
     weight = 30
 
 
