@@ -29,9 +29,6 @@ disableKinds = ["page", "section", "taxonomy", "term"]
     source = "assets/.*\\.(.*)$"
     target = "$1"
 
-defaultContentLanguage = 'kz'
-defaultContentLanguageInSubdir = true
-
 [languages]
 
   [languages.kz]
@@ -60,23 +57,23 @@ defaultContentLanguageInSubdir = true
 
     [[menu.main]]
       identifier = 'about'
-      url = '/about'
+      url = '/about/'
       weight = '7'
 
     [[menu.main]]
       identifier = 'contact'
-      url = '/contact'
+      url = '/contact/'
       weight = 9
 
 
     [[menu.main]]
       identifier = 'home'
-      url = '/en/'
+      url = '/'
       weight = 11
 
     [[menu.main]]
       identifier = 'about'
-      url = 'en/about/'
+      url = '/about/'
       weight = 13
 
     [[menu.main]]
@@ -86,15 +83,16 @@ defaultContentLanguageInSubdir = true
 
     [[menu.main]]
       identifier = 'home'
-      url = '/ru'
+      url = '/'
       weight = 17
 
     [[menu.main]]
       identifier = 'about'
-      url = 'ru/about/'
+      url = '/about/'
       weight = 19
 
     [[menu.main]]
       identifier = 'contact'
-      url = 'ru/contact/'
+      url = '/contact/'
+      weight = 21
 
