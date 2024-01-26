@@ -33,19 +33,19 @@ disableKinds = ["page", "section", "taxonomy", "term"]
 
   [languages.kz]
     contentDir = 'content/kazakh'
-    languageCode = 'kk'
+    languageCode = 'kk-kz'
     languageName = 'KZ'
     weight = 10
 
   [languages.en]
     contentDir = 'content/english'
-    languageCode = 'en'
+    languageCode = 'en-us'
     languageName = 'EN'
     weight = 20
 
   [languages.ru]  
     contentDir = 'content/russian'
-    languageCode = 'ru'
+    languageCode = 'ru-ru'
     languageName = 'RU'
     weight = 30
 
@@ -78,7 +78,7 @@ disableKinds = ["page", "section", "taxonomy", "term"]
 
     [[menu.main]]
       identifier = 'contact'
-      url = 'en/contact/'
+      url = '/contact/'
       weight = 15
 
     [[menu.main]]
