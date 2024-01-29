@@ -59,6 +59,7 @@
       "shadow-lg",
       "shadow-lilac-grey",
       "shadow-white",
+      "sm:mx-auto",
       "sm:text-sm",
       "text-4xl",
       "text-sm",
