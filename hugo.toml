@@ -34,7 +34,7 @@ disableKinds = ["page", "section", "taxonomy", "term"]
   [languages.kz]
     contentDir = 'content/kazakh'
     languageCode = 'kk-kz'
-    languageName = 'Kazakh'
+    languageName = 'Qazaq'
     weight = 10
 
   [languages.en]
@@ -65,34 +65,49 @@ disableKinds = ["page", "section", "taxonomy", "term"]
       url = '/contact/'
       weight = 9
 
+     [[menu.main]]
+      identifier = 'latest'
+      url = '/latest/'
+      weight = 11
+
 
     [[menu.main]]
       identifier = 'home'
       url = '/'
-      weight = 11
-
-    [[menu.main]]
-      identifier = 'about'
-      url = '/about/'
       weight = 13
 
     [[menu.main]]
+      identifier = 'about'
+      url = '/about/'
+      weight = 15
+
+    [[menu.main]]
       identifier = 'contact'
       url = '/contact/'
-      weight = 15
+      weight = 17
+
+     [[menu.main]]
+      identifier = 'latest'
+      url = '/latest/'
+      weight = 19
 
     [[menu.main]]
       identifier = 'home'
       url = '/'
-      weight = 17
+      weight = 21
 
     [[menu.main]]
       identifier = 'about'
       url = '/about/'
-      weight = 19
+      weight = 23
 
     [[menu.main]]
       identifier = 'contact'
       url = '/contact/'
-      weight = 21
+      weight = 25
+
+    [[menu.main]]
+      identifier = 'latest'
+      url = '/latest/'
+      weight = 27
 

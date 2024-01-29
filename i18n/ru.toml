@@ -1,8 +1,11 @@
 [home]
-other = "Glavnaya"
+other = "Главная"
 
 [about]
-other = "O nas"
+other = "О нас"
 
 [contact]
-other = "Svyazatsya s nami"
+other = "Связаться с нами"
+
+[latest]
+other = "Последний выпуск"

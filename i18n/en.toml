@@ -5,4 +5,7 @@ other = "Home"
 other = "About"
 
 [contact]
-other = "Contact us"
+other = "Contact"
+
+[latest]
+other = "Current issue"

@@ -1,8 +1,11 @@
 [home]
-other = "Bastı bet"
+other = "Басты бет"
 
 [about]
-other = "Biz jaylı"
+other = "Біз жайлы"
 
 [contact]
-other = "Bizben habarlas"
+other = "Бізбен хабарлас"
+
+[latest]
+other = "Соңғы басылым"
