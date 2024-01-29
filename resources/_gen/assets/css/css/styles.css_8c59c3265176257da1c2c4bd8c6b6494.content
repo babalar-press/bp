@@ -659,6 +659,11 @@ html {
     margin-right: auto;
   }
 
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sm\:px-1 {
     padding-left: 0.25rem;
     padding-right: 0.25rem;

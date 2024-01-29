@@ -63,6 +63,7 @@
       "shadow-white",
       "sm-px-1",
       "sm:mx-auto",
+      "sm:px-0",
       "sm:px-1",
       "sm:text-sm",
       "text-4xl",
