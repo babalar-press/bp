@@ -1,29 +1,29 @@
+
 <div id="main-menu" class="main-menu">
-  <ul>
+    <nav class="flex gap-4">
   {{ $currentPage := . }}
   {{ $menu := .Site.Menus.main}}
   {{range $index, $element := $menu}}
     {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
     {{ $active = or $active (eq .Name $currentPage.Title) }}
-    <div class="grid">
-      <div><li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }} bg-white rounded-full">
+      <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-serif bg-white rounded-full shadow-lg shadow-white">
       <a href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
-    </li></div>
-  </div>
+      </div>
   {{end}}
-  </ul>
+    </nav>
 </div>
 
-<ul>
+
+<nav class="flex gap-4 place-content-end">
 {{ range $.Site.Home.AllTranslations }}
   {{ if ne $.Site.Language.Lang .Language.Lang }}
     {{ $translation := index (where $.Page.Translations "Language.Lang" .Language.Lang) 0 }}
     {{ $no_translation := index (where ($.Site.GetPage "/no-translation.md").Translations "Language.Lang" .Language.Lang) 0 }}
-    <li class="grid bg-white justify-items-end rounded-full">
+    <div class="bg-white rounded-full font-serif shadow-lg shadow-white">
       <a class="language-switch" href="{{ default $no_translation.Permalink $translation.Permalink }}">
-        <div>{{ .Language.LanguageName }}</div>
+        {{ .Language.LanguageName }}
       </a>
-    </li>
+    </div>
   {{ end }}
 
 {{ end }}

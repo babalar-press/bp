@@ -14,7 +14,11 @@ module.exports = {
         		'neon-green': '#00ff00',
 			},
 			boxShadow: {
+				'lg': '0px 2px 3px 6px',
 				'2xl': '10px 8px 8px 20px',
+			},
+			fontFamily: {
+				'serif': ['Lora'],
 			}
 		}
 	}

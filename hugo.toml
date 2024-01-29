@@ -34,19 +34,19 @@ disableKinds = ["page", "section", "taxonomy", "term"]
   [languages.kz]
     contentDir = 'content/kazakh'
     languageCode = 'kk-kz'
-    languageName = 'KZ'
+    languageName = 'Kazakh'
     weight = 10
 
   [languages.en]
     contentDir = 'content/english'
     languageCode = 'en-us'
-    languageName = 'EN'
+    languageName = 'English'
     weight = 20
 
   [languages.ru]  
     contentDir = 'content/russian'
     languageCode = 'ru-ru'
-    languageName = 'RU'
+    languageName = 'Russian'
     weight = 30
 
 
