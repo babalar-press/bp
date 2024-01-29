@@ -23,10 +23,13 @@
       "active",
       "bg-[#e9e6ed]",
       "bg-[#f1ff78]",
+      "bg-white",
       "border-2",
       "border-green-500",
       "container",
       "h-20",
+      "h-[20]",
+      "h-[48]",
       "language-switch",
       "lg:mx-auto",
       "lg:w-40",
@@ -37,10 +40,13 @@
       "my-10",
       "my-4",
       "nav-item",
+      "object-contain",
+      "object-scale-down",
       "px-4",
       "rounded-full",
       "sm:w-10",
-      "text-4xl"
+      "text-4xl",
+      "w-[96]"
     ],
     "ids": [
       "Layer_1",

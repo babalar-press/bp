@@ -11,11 +11,13 @@
   {{end}}
   </ul>
 </div>
+<div class = "container mx-auto bg-white">
 {{ range $.Site.Home.AllTranslations }}
   {{ if ne $.Site.Language.Lang .Language.Lang }}
     {{ $translation := index (where $.Page.Translations "Language.Lang" .Language.Lang) 0 }}
     {{ $no_translation := index (where ($.Site.GetPage "/no-translation.md").Translations "Language.Lang" .Language.Lang) 0 }}
     <li class="nav-item"><a class="language-switch" href="{{ default $no_translation.Permalink $translation.Permalink }}">{{ .Language.LanguageName }}</a></li>
   {{ end }}
+</div>
 {{ end }}
 

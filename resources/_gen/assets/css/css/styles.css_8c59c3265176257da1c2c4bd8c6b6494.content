@@ -517,6 +517,15 @@ video {
 .h-20 {
   height: 5rem;
 }
+.h-\[20\] {
+  height: 20;
+}
+.h-\[48\] {
+  height: 48;
+}
+.w-\[96\] {
+  width: 96;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -534,6 +543,16 @@ video {
 .bg-\[\#f1ff78\] {
   --tw-bg-opacity: 1;
   background-color: rgb(241 255 120 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.object-contain {
+  object-fit: contain;
+}
+.object-scale-down {
+  object-fit: scale-down;
 }
 .px-4 {
   padding-left: 1rem;
