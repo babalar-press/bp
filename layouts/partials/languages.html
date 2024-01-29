@@ -5,18 +5,27 @@
   {{range $index, $element := $menu}}
     {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
     {{ $active = or $active (eq .Name $currentPage.Title) }}
-    <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
+    <div class="grid">
+      <div><li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }} bg-white rounded-full">
       <a href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
-    </li>
+    </li></div>
+  </div>
   {{end}}
   </ul>
 </div>
+
+<ul>
 {{ range $.Site.Home.AllTranslations }}
   {{ if ne $.Site.Language.Lang .Language.Lang }}
     {{ $translation := index (where $.Page.Translations "Language.Lang" .Language.Lang) 0 }}
     {{ $no_translation := index (where ($.Site.GetPage "/no-translation.md").Translations "Language.Lang" .Language.Lang) 0 }}
-    <li class="nav-item mx-auto bg-white"><a class="language-switch" href="{{ default $no_translation.Permalink $translation.Permalink }}">{{ .Language.LanguageName }}</a></li>
+    <li class="grid bg-white justify-items-end rounded-full">
+      <a class="language-switch" href="{{ default $no_translation.Permalink $translation.Permalink }}">
+        <div>{{ .Language.LanguageName }}</div>
+      </a>
+    </li>
   {{ end }}
 
 {{ end }}
+</ul>
 
