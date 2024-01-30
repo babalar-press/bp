@@ -659,6 +659,10 @@ html {
     margin-right: auto;
   }
 
+  .sm\:h-40 {
+    height: 10rem;
+  }
+
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -691,6 +695,10 @@ html {
   .lg\:my-4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .lg\:h-28 {
+    height: 7rem;
   }
 
   .lg\:px-4 {
