@@ -613,6 +613,9 @@ video {
 .text-4xl {
   font-size: 2.441rem;
 }
+.text-base {
+  font-size: 1rem;
+}
 .text-sm {
   font-size: 0.8rem;
 }
@@ -671,6 +674,10 @@ html {
   .sm\:px-1 {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
   }
 
   .sm\:text-sm {

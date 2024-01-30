@@ -6,7 +6,7 @@
   {{range $index, $element := $menu}}
     {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
     {{ $active = or $active (eq .Name $currentPage.Title) }}
-      <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-serif sm:text-sm md:text-base bg-white rounded-full shadow-lg shadow-white">
+      <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-serif text-base bg-white rounded-full shadow-lg shadow-white">
       <a href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
       </div>
   {{end}}
@@ -19,7 +19,7 @@
   {{ if ne $.Site.Language.Lang .Language.Lang }}
     {{ $translation := index (where $.Page.Translations "Language.Lang" .Language.Lang) 0 }}
     {{ $no_translation := index (where ($.Site.GetPage "/no-translation.md").Translations "Language.Lang" .Language.Lang) 0 }}
-    <div class="bg-white rounded-full font-serif sm:text-sm md:text-base shadow-lg shadow-white">
+    <div class="bg-white rounded-full font-serif text-base shadow-lg shadow-white">
       <a class="language-switch" href="{{ default $no_translation.Permalink $translation.Permalink }}">
         {{ .Language.LanguageName }}
       </a>
