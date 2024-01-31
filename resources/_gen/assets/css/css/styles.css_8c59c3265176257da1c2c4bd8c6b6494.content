@@ -652,6 +652,10 @@ html {
     columns: 2;
   }
 
+  .md\:text-4xl {
+    font-size: 2.441rem;
+  }
+
   .md\:text-base {
     font-size: 1rem;
   }
