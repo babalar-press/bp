@@ -37,6 +37,7 @@
       "main-menu",
       "md:columns-2",
       "md:flex",
+      "md:text-4l",
       "md:text-4xl",
       "md:text-base",
       "menu-item-",
