@@ -1,12 +1,12 @@
 
 <div id="main-menu" class="main-menu">
-    <nav class="flex gap-4">
+    <nav class="sm:flex-wrap lg:flex gap-4">
   {{ $currentPage := . }}
   {{ $menu := .Site.Menus.main}}
   {{range $index, $element := $menu}}
     {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
     {{ $active = or $active (eq .Name $currentPage.Title) }}
-      <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-serif lg:text-base sm:text-5xl bg-white rounded-full shadow-lg shadow-white">
+      <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-serif lg:text-base sm:text-4xl bg-white rounded-full shadow-lg shadow-white">
       <a href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
       </div>
   {{end}}

@@ -49,6 +49,7 @@
       "shadow-lg",
       "shadow-white",
       "sm:flex-wrap",
+      "sm:text-4xl",
       "sm:text-5xl",
       "sm:text-lg",
       "text-4xl",
