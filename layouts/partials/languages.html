@@ -4,7 +4,7 @@
   {{ if ne $.Site.Language.Lang .Language.Lang }}
     {{ $translation := index (where $.Page.Translations "Language.Lang" .Language.Lang) 0 }}
     {{ $no_translation := index (where ($.Site.GetPage "/no-translation.md").Translations "Language.Lang" .Language.Lang) 0 }}
-    <div class="bg-white rounded-full font-serif lg:text-base sm:text-5xl shadow-lg shadow-white">
+    <div class="bg-white rounded-full font-serif lg:text-base sm:text-4xl shadow-lg shadow-white">
       <a class="language-switch" href="{{ default $no_translation.Permalink $translation.Permalink }}">
         {{ .Language.LanguageName }}
       </a>

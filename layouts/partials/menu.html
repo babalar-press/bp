@@ -1,6 +1,6 @@
 
 <div id="main-menu" class="main-menu">
-    <nav class="sm:flex-wrap lg:flex gap-4">
+    <nav class="sm:grid-cols-2 lg:flex gap-4">
   {{ $currentPage := . }}
   {{ $menu := .Site.Menus.main}}
   {{range $index, $element := $menu}}
