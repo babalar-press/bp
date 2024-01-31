@@ -617,6 +617,10 @@ html {
     flex-wrap: wrap;
   }
 
+  .sm\:text-5xl {
+    font-size: 3.052rem;
+  }
+
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;

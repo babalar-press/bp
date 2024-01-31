@@ -1,6 +1,6 @@
 ---
         Title: "About us"
-        Layout: "list"
+        Layout: "about"
         Type: "page" 
         Draft: "false"
 ---
