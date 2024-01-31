@@ -1,5 +1,9 @@
-
-    {{ define "main" }}
+{{ define "main" }}
+<article>
 <h2 class="text-4xl">{{ .Title }}</h2>
+<div class="container px-4 border-green-500 border-2 mx-auto font-serif">
+    {{ .Content }} 
+</div>
+</article>
 
 {{ end }}
