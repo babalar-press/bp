@@ -32,6 +32,9 @@ disableKinds = ["taxonomy"]
 
 [languages]
 
+defaultContentLanguage = 'kz'
+defaultContentLanguageInSubdir = true
+
   [languages.kz]
     contentDir = 'content/kz'
     languageCode = 'kk-kz'
