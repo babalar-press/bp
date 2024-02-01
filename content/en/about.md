@@ -1,7 +1,8 @@
 ---
         Title: "About us"
-        Layout: "single"
+        Layout: "about"
         Draft: "false"
+        Type: "miscellaneous"
 ---
 
 About about
