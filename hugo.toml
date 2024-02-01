@@ -1,4 +1,4 @@
-baseURL = "https://www.example.org/"
+baseURL = "/"
 title = 'Babalar Press'
 
 disableKinds = ["taxonomy"]
@@ -30,26 +30,30 @@ disableKinds = ["taxonomy"]
     source = "assets/.*\\.(.*)$"
     target = "$1"
 
-[languages]
 
 defaultContentLanguage = 'kz'
 defaultContentLanguageInSubdir = true
 
+[languages]
+
   [languages.kz]
     contentDir = 'content/kz'
-    languageCode = 'kk-kz'
+    disabled = false
+    languageCode = 'kz'
     languageName = 'Qazaq'
     weight = 1
 
   [languages.en]
     contentDir = 'content/en'
-    languageCode = 'en-us'
+    disabled = false
+    languageCode = 'en-US'
     languageName = 'English'
     weight = 2
 
   [languages.ru]  
     contentDir = 'content/ru'
-    languageCode = 'ru-ru'
+    disabled = false
+    languageCode = 'ru-RU'
     languageName = 'Russian'
     weight = 3
 
