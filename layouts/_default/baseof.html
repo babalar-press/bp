@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">!-->
-  <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}">
+
+  <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
   <head>
     <meta charset="utf-8" />
     <title>
@@ -33,7 +33,8 @@
       {{- partial "languages.html" . -}}
       </div>
     <div class="container px-0 my-4 mx-auto">
-        {{- partial "head.html" . -}}
+      {{ if eq .Type "home" }}
+      {{- partial "head.html" . -}} {{ end }}
         </div>
     <div class="container px-0 mx-auto">
       {{ block "main" . }}{{ end }}

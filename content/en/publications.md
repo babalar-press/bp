@@ -1,9 +1,8 @@
 ---
-        Title: "Latest Issue"
-        Layout: "latest"
+        Title: "Publications"
+        Layout: "publications"
         Type: "miscellaneous"
         Draft: "false"
 
 ---
 
-Contact

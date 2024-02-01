@@ -1,5 +1,5 @@
 ---
-        Title: "About us"
+        Title: "О нас"
         Layout: "about"
         Type: "miscellaneous"
         Draft: "false"

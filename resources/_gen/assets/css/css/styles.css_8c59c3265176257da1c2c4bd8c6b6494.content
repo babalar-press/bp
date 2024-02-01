@@ -530,6 +530,12 @@ video {
 .w-\[100\%\] {
   width: 100%;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
+.place-content-center {
+  place-content: center;
+}
 .place-content-end {
   place-content: end;
 }
@@ -561,6 +567,10 @@ video {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .px-4 {
   padding-left: 1rem;

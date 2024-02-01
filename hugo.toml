@@ -1,8 +1,6 @@
 baseURL = "/"
 title = 'Babalar Press'
 
-disableKinds = ["taxonomy"]
-
 
 [module]
   [module.hugoVersion]
@@ -31,7 +29,7 @@ disableKinds = ["taxonomy"]
     target = "$1"
 
 
-defaultContentLanguage = 'kz'
+defaultContentLanguage = 'kk-kz'
 defaultContentLanguageInSubdir = true
 
 [languages]
@@ -39,7 +37,7 @@ defaultContentLanguageInSubdir = true
   [languages.kz]
     contentDir = 'content/kz'
     disabled = false
-    languageCode = 'kz'
+    languageCode = 'kk-kz'
     languageName = 'Qazaq'
     weight = 1
 
@@ -71,12 +69,12 @@ defaultContentLanguageInSubdir = true
     [[menu.main]]
       identifier = 'contact'
       url = '/contact'
-      weight = 30
+      weight = 40
 
      [[menu.main]]
-      identifier = 'latest'
-      url = '/latest'
-      weight = 40
+      identifier = 'publications'
+      url = '/publications'
+      weight = 30
 
 
     [[menu.main]]
@@ -92,12 +90,12 @@ defaultContentLanguageInSubdir = true
     [[menu.main]]
       identifier = 'contact'
       url = '/contact'
-      weight = 30
+      weight = 40
 
      [[menu.main]]
-      identifier = 'latest'
-      url = '/latest'
-      weight = 40
+      identifier = 'publications'
+      url = '/publications'
+      weight = 30
 
     [[menu.main]]
       identifier = 'home'
@@ -112,10 +110,10 @@ defaultContentLanguageInSubdir = true
     [[menu.main]]
       identifier = 'contact'
       url = '/contact'
-      weight = 30
+      weight = 40
 
     [[menu.main]]
-      identifier = 'latest'
-      url = '/latest'
-      weight = 40
+      identifier = 'publications'
+      url = '/publications'
+      weight = 30
 

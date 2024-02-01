@@ -5,4 +5,56 @@
         Type: "miscellaneous"
 ---
 
-About about
+WHAT?
+
+BABALAR PRESS is a Qazaq experimental research, writing and publishing initiative for relearning, reclaiming and reimagining our ancestral knowledge(s).
+
+Through zines, workshops and research fellowships, BABALAR PRESS creates informal & caring spaces for us to engage with, reinterpret & share the stories, knowledges and practices of our collective and personal babalar (qazaq for “ancestors”).
+
+WHY? WHAT FOR?
+
+We often say that our country is home to people of many different cultural and ethnic backgrounds. What is not voiced often enough is how many of us, in all our differences – as a result of colonial rule by russian empire and soviet union, with their politics of mass deportations, repressions, genocide and erasure of indigenous identities and peoples – bear the shared trauma of being cut off from the worlds, knowledges, languages and practices of our ancestors.
+
+At BABALAR PRESS, we believe that the task of healing these wounds is crucial to our individual and collective wellbeing, and we approach this task through active reconnection with our ancestral worlds. Through critical and creative research and personal meaning-making in dialogue with our ancestral knowledges, we hope to reclaim ownership over those knowledges, keep them useful and alive, remember who we were and are, and imagine who we want to be.
+
+BY WHOM? FOR WHOM?
+
+1.
+BABALAR PRESS is a BUFU* project. It is a space that our team, ourselves, felt the need for and, upon failing to find, had to dream up. The main audience of BABALAR PRESS are people like ourselves and our collaborators: Qazaq people, of diverse ethnic, linguistic and social backgrounds, on their personal journeys of remembering and reclaiming their ancestral heritage and cultural identity.
+
+* – by us for us
+
+2.
+We believe that, in order to come into full ownership of our ancestral knowledges – to once again embody, practice and shape them – more Qazaq people must have opportunities to “spend time” with those knowledges, to explore and experiment with them.
+
+Moreover, in our opinion, the participation and leadership of Qazaq people from marginalized groups in the meaning-making around our ancestral knowledges is crucial, if we are to shape a future Qazaq society that includes us all. We see women, non-binary and LGBTQIA people, representatives of ethnic minorities, qandastar and other Qazaq people, who have been/are excluded from or not supported in their knowledge production around this topic, as the main authors of BABALAR PRESS.
+
+3.
+At present, BABALAR PRESS team is:
+
+Aisha Jandosova, Qazaq-Kyrgyz designer, practice-based researcher and art educator.
+Aida Issakhankyzy, Qazaq architect/computational designer, researcher, urban planner.
+
+OUR APPROACH
+
+a space for reclaiming our voices
+Through BABALAR PRESS, we want to create a space for our Qazaq voices, stories, and experiences. For the voices of our near and far, shared and personal ancestors. For training our voice muscles. For realizing and celebrating the value, beauty and power of our voices and stories. For experimenting with, documenting and sharing our voices.
+
+a learning community and a community of learners
+BABALAR PRESS is a learning community – we believe that we all have something to teach and learn from one another. BABALAR PRESS is also a community of learners – this is our first attempt at creating such a space, we are driven by intuition, learning and figuring things out as we go, and accepting-welcoming that mistakes/change/growth will be part of our journey.
+
+As we & people around us learn and reconnect to our ancestral worlds, we are practicing extending kindness to ourselves and one another, and hope you, dear reader and/or potential collaborator, will do the same.
+
+a space for dialogue
+We hope BABALAR PRESS will be an opportunity for us, with our many identities, languages and experiences, to break out of our "bubbles" and come into generative and mutually supportive dialogue.
+
+We aspire to create projects which serve as an intersection for such people, where authors can express themselves and share knowledge in a language and format that suits them, and where they can be heard by “speakers” of other languages.
+
+our position on language
+BABALAR PRESS is a multilingual space. Our forthcoming events, publications & social media posts will all be in Qazaq, Russian and English. 
+
+At the same time our team believes in the importance of transitioning to Qazaq as a language that will be spoken and shared by all people within our country, alongside any other languages they may speak. Some members of our community are learning Qazaq language right now, and we invite you all to join us at the time & speed that feels right for you.
+
+TITLE
+
+The name BABALAR PRESS embodies our commitment to becoming good ancestors: learning from our ancestors, and engaging, dreaming and building in the present to ensure free, fair and livable worlds for future generations.
