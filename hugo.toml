@@ -1,7 +1,8 @@
 baseURL = "https://www.example.org/"
 title = 'Babalar Press'
 
-disableKinds = ["page", "section", "taxonomy", "term"]
+disableKinds = ["taxonomy"]
+
 
 [module]
   [module.hugoVersion]
