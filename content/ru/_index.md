@@ -1,7 +1,6 @@
 ---
-Header:
-
         Title: "Babalar Press"
+        Layout: "index"
 ---
 
-English
+Русский

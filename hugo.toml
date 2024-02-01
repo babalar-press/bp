@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.example.org/"
 title = 'Babalar Press'
 
 disableKinds = ["page", "section", "taxonomy", "term"]
@@ -32,19 +32,19 @@ disableKinds = ["page", "section", "taxonomy", "term"]
 [languages]
 
   [languages.kz]
-    contentDir = 'content/kazakh'
+    contentDir = 'content/kz'
     languageCode = 'kk-kz'
     languageName = 'Qazaq'
     weight = 1
 
   [languages.en]
-    contentDir = 'content/english'
+    contentDir = 'content/en'
     languageCode = 'en-us'
     languageName = 'English'
     weight = 2
 
   [languages.ru]  
-    contentDir = 'content/russian'
+    contentDir = 'content/ru'
     languageCode = 'ru-ru'
     languageName = 'Russian'
     weight = 3
@@ -57,17 +57,17 @@ disableKinds = ["page", "section", "taxonomy", "term"]
 
     [[menu.main]]
       identifier = 'about'
-      url = '/about/'
+      url = '/about'
       weight = 20
 
     [[menu.main]]
       identifier = 'contact'
-      url = '/contact/'
+      url = '/contact'
       weight = 30
 
      [[menu.main]]
       identifier = 'latest'
-      url = '/latest/'
+      url = '/latest'
       weight = 40
 
 
@@ -78,17 +78,17 @@ disableKinds = ["page", "section", "taxonomy", "term"]
 
     [[menu.main]]
       identifier = 'about'
-      url = '/about/'
+      url = '/about'
       weight = 20
 
     [[menu.main]]
       identifier = 'contact'
-      url = '/contact/'
+      url = '/contact'
       weight = 30
 
      [[menu.main]]
       identifier = 'latest'
-      url = '/latest/'
+      url = '/latest'
       weight = 40
 
     [[menu.main]]
@@ -98,16 +98,16 @@ disableKinds = ["page", "section", "taxonomy", "term"]
 
     [[menu.main]]
       identifier = 'about'
-      url = '/about/'
+      url = '/about'
       weight = 20
 
     [[menu.main]]
       identifier = 'contact'
-      url = '/contact/'
+      url = '/contact'
       weight = 30
 
     [[menu.main]]
       identifier = 'latest'
-      url = '/latest/'
+      url = '/latest'
       weight = 40
 
