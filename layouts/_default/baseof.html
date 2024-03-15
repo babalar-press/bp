@@ -21,23 +21,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+  
   </head>
-  <body class="bg-lilac-grey">
-    <div class="flex my-4 px-4 mx-auto">
+  
+  <body class="bg-olive relative">
+    {{- partial "texture.html" . -}}
+     <!--<div class="container mx-auto">
+      {{- partial "texture.html" . -}}
+    </div>!-->
+    <div class="flex my-0 px-4 mx-auto">
       {{- partial "menu.html" . -}}
       </div>
-      <div class="flex my-8">
-    {{- partial "header.html" . -}}
-    </div>
     <div class="flex px-4 mx-auto place-content-end">
       {{- partial "languages.html" . -}}
       </div>
-    <div class="container px-0 my-4 mx-auto">
+    <div class="relative mx-auto max-w-7xl mt-10">
       {{ if eq .Type "home" }}
-      {{- partial "head.html" . -}} {{ end }}
-        </div>
-    <div class="container px-0 mx-auto">
+      {{- partial "horses.html" . -}}{{ end }}
+    </div>
+    <div class="relative mx-auto mt-0 h-96 max-w-full">
       {{ block "main" . }}{{ end }}
     </div>
+    <div class="flex my-4">
+      {{- partial "header.html" . -}}
+      </div>
+    
   </body>
 </html>
