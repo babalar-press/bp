@@ -1,7 +1,7 @@
 ---
         Title: "Бізбен хабарлас"
         Layout: "contact"
-        Type: "miscellaneous"
+        Type: "kz"
         Draft: "false"
 ---
 

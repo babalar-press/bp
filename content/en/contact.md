@@ -1,7 +1,7 @@
 ---
         Title: "Contact"
         Layout: "contact"
-        Type: "miscellaneous"
+        Type: "en"
         Draft: "false"
 ---
 

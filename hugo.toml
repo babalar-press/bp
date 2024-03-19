@@ -32,15 +32,15 @@ title = 'Babalar Press'
   wool = "assets/images/wool-texture.png"
 
 
-defaultContentLanguage = 'kk-kz'
-defaultContentLanguageInSubdir = true
+defaultContentLanguage = 'kk-KZ'
+defaultContentLanguageInSubdir = false
 
 [languages]
 
   [languages.kz]
     contentDir = 'content/kz'
     disabled = false
-    languageCode = 'kk-kz'
+    languageCode = 'kk-KZ'
     languageName = 'Qazaq'
     weight = 1
 

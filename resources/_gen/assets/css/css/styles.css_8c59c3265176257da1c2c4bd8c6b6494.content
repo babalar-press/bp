@@ -508,6 +508,9 @@ video {
 .relative {
   position: relative;
 }
+.float-left {
+  float: left;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -547,6 +550,9 @@ video {
 }
 .w-32 {
   width: 8rem;
+}
+.w-96 {
+  width: 24rem;
 }
 .w-\[100\%\] {
   width: 100%;
@@ -664,8 +670,11 @@ video {
 .mask-shape-ellipse {
   --tw-mask-shape: ellipse;
 }
-.mask-reach-\[50\%_60\%\] {
-  --tw-mask-reach: 50% 60%;
+.mask-reach-\[50\%_50\%\] {
+  --tw-mask-reach: 50% 50%;
+}
+.\[clip-path\:circle\(40\%\)\] {
+  clip-path: circle(40%);
 }
 .\[clip-path\:xywh\(30_30px_80\%_80\%_round_50\%_50\%\)\] {
   clip-path: xywh(30 30px 80% 80% round 50% 50%);

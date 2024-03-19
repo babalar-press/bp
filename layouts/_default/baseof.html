@@ -24,11 +24,10 @@
   
   </head>
   
-  <body class="bg-olive relative">
-    {{- partial "texture.html" . -}}
-     <!--<div class="container mx-auto">
-      {{- partial "texture.html" . -}}
-    </div>!-->
+  <body class="bg-olive">
+    <div class="flex my-4">
+      {{- partial "header.html" . -}}
+      </div>
     <div class="flex my-0 px-4 mx-auto">
       {{- partial "menu.html" . -}}
       </div>
@@ -42,9 +41,6 @@
     <div class="relative mx-auto mt-0 h-96 max-w-full">
       {{ block "main" . }}{{ end }}
     </div>
-    <div class="flex my-4">
-      {{- partial "header.html" . -}}
-      </div>
     
   </body>
 </html>

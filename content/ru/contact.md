@@ -1,7 +1,7 @@
 ---
         Title: "Связаться с нами"
         Layout: "contact"
-        Type: "miscellaneous"
+        Type: "ru"
         Draft: "false"
 ---
 

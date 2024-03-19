@@ -1,7 +1,7 @@
 ---
         Title: "Publications"
         Layout: "publications"
-        Type: "miscellaneous"
+        Type: "en"
         Draft: "false"
 
 ---

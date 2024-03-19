@@ -1,7 +1,7 @@
 ---
         Title: "Публикации"
         Layout: "publications"
-        Type: "miscellaneous"
+        Type: "ru"
         Draft: "false"
 
 ---
