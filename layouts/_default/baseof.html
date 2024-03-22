@@ -24,22 +24,19 @@
   
   </head>
   
-  <body class="bg-olive">
-    <div class="flex my-4">
-      {{- partial "header.html" . -}}
+  <body class="bg-white">
+      <div class="bg-gradient-to-b from-lemon-yellow to-none lg:h-40 sm:h-96">
+        {{- partial "header.html" . -}}
       </div>
-    <div class="flex my-0 px-4 mx-auto">
-      {{- partial "menu.html" . -}}
-      </div>
-    <div class="flex px-4 mx-auto place-content-end">
-      {{- partial "languages.html" . -}}
-      </div>
-    <div class="relative mx-auto max-w-7xl mt-10">
+    <div class="mx-auto mt-0">
       {{ if eq .Type "home" }}
       {{- partial "horses.html" . -}}{{ end }}
     </div>
     <div class="relative mx-auto mt-0 h-96 max-w-full">
       {{ block "main" . }}{{ end }}
+    </div>
+    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none h-20">
+      {{- partial "footer.html" . -}}
     </div>
     
   </body>

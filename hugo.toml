@@ -28,8 +28,6 @@ title = 'Babalar Press'
     source = "assets/.*\\.(.*)$"
     target = "$1"
 
-[params]
-  wool = "assets/images/wool-texture.png"
 
 
 defaultContentLanguage = 'kk-KZ'
