@@ -16,26 +16,32 @@
     {{ end }}
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
     
-    <!--Font!-->
+    <!--Fonts!-->
     
+    <!--Lora, Mulish-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    
+    <!--Roboto Condensed-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
   </head>
   
-  <body class="bg-white">
-      <div class="bg-gradient-to-b from-lemon-yellow to-none lg:h-40 sm:h-96">
+  <body class="bg-white-wool bg-fixed w-full h-fit overflow-hidden">
+  
+      <div class="bg-gradient-to-b from-periwinkle to-none h-20 px-12">
         {{- partial "header.html" . -}}
       </div>
-    <div class="mx-auto mt-0">
+      <div class="relative h-fit">
       {{ if eq .Type "home" }}
-      {{- partial "horses.html" . -}}{{ end }}
-    </div>
-    <div class="relative mx-auto mt-0 h-96 max-w-full">
+      {{- partial "horses.html" -}}{{ end }} </div>
+    <div class="mx-auto mt-0 max-w-full h-screen">
       {{ block "main" . }}{{ end }}
     </div>
-    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none h-20">
+    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none h-fit">
       {{- partial "footer.html" . -}}
     </div>
     

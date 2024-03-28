@@ -1,32 +1,27 @@
 
-<div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-8 sm:gap-1">
-  
-    <div class="lg:h-32 sm:h-36 w-full mx-auto bg-lilac rounded-full shadow-2xl shadow-lilac"> 
-      <div class="h-32 w-32 mx-auto py-6">
-          {{ readFile "assets/images/bplogo1-3d-v2-blue.svg" | safeHTML }}
-      </div>
-    </div>
 
-
-
-  <div class="grid lg:grid-cols-4 sm:grid-cols-2 lg:grid-rows-3 sm:grid-rows-4 lg:h-24 sm:h-44 lg:gap-4 sm:gap-4 lg:mt-2 sm:mt-8">
-      {{ $currentPage := . }}
+<div class="grid grid-cols-2">
+<div class="flex place-content-start gap-6">
+  {{ $currentPage := . }}
     {{ $menu := .Site.Menus.main}}
     {{range $index, $element := $menu}}
       {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
       {{ $active = or $active (eq .Name $currentPage.Title) }}
-      <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-serif lg:text-base px-2 sm:text-xl text-brown rounded-full bg-lilac shadow-lg shadow-lilac hover:bg-white hover:shadow-white">
-        <a href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
+        <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-sans-serif text-xl text-brown  hover:bg-red hover:text-periwinkle hover:rounded-full">
+          <a  href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
       </div>
+
     {{end}}
-      
-      
+  </div>
+
+  <div class="flex place-content-end gap-4">
+
     {{ range $.Site.Home.AllTranslations }}
       {{ if ne $.Site.Language.Lang .Language.Lang }}
         {{ $translation := index (where $.Page.Translations "Language.Lang" .Language.Lang) 0 }}
         {{ $no_translation := index (where ($.Site.GetPage "/no-translation.md").Translations "Language.Lang" .Language.Lang) 0 }}
 
-          <a class="language-switch bg-lilac hover:bg-white hover:shadow-white text-brown rounded-full font-serif px-2 lg:text-base sm:text-xl shadow-lg shadow-lilac" href="{{ default $no_translation.Permalink $translation.Permalink }}">
+          <a class="language-switch hover:bg-red hover:text-periwinkle hover:rounded-full text-brown font-sans-serif text-xl" href="{{ default $no_translation.Permalink $translation.Permalink }}">
             {{ .Language.LanguageName }}
           </a>
 
@@ -34,10 +29,6 @@
     
     {{ end }}
 
-    <div class="grid lg:col-span-4 sm:col-span-2 px-[0.2em] font-serif sm:text-2xl lg:text-sm text-brown font-semibold">BABALAR PRESS is a Qazaq experimental research, writing and publishing initiative for
-      relearning, reclaiming and reimagining our ancestral knowledge(s).</div>
-      </div>
- 
   </div>
 
 </div>

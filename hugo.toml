@@ -39,21 +39,21 @@ defaultContentLanguageInSubdir = false
     contentDir = 'content/kz'
     disabled = false
     languageCode = 'kk-KZ'
-    languageName = 'Qazaq'
+    languageName = 'kz'
     weight = 1
 
   [languages.en]
     contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
-    languageName = 'English'
+    languageName = 'en'
     weight = 2
 
   [languages.ru]  
     contentDir = 'content/ru'
     disabled = false
     languageCode = 'ru-RU'
-    languageName = 'Russian'
+    languageName = 'ru'
     weight = 3
 
 

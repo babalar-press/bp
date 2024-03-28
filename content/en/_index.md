@@ -3,5 +3,3 @@
         Layout: "index"
         Type: "home"
 ---
-
-# English

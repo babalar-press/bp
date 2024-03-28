@@ -1,20 +1,20 @@
-  
-<div class="grid grid-cols-1 grid-rows-3 w-full h-fit px-10 mt-0">
-
-<div><img src="{{ `img/white-wool.png` | relLangURL }}" 
-    class="h-64 w-full mx-auto object-cover object-center 
-    [clip-path:xywh(30_30px_80%_80%_round_50%_50%)] mask-shape-ellipse mask-radial
-    "/>
-
-  <img src="{{ `img/Horses_in_Kazakhstan.jpg` | relLangURL }}" 
-        class="h-96 w-full float-center object-cover object-center 
-        [clip-path:xywh(90_90px_80%_80%_round_80%_80%)] mask-shape-ellipse mask-radial
-        "/></div>
-
-<div class="bg-lilac h-20 w-full mx-auto
-[clip-path:xywh(90_90px_80%_80%_round_80%_80%)] mask-shape-ellipse mask-radial"></div>
 
 
+<div class="h-screen z-10 absolute">
+    <img src="/img/Horses_in_Kazakhstan.jpg" class="max-w-6xl left-0 right-0 top-0 bottom-0 mx-auto fixed object-cover object-center 
+  [clip-path:xywh(10_10px_100%_100%_round_20%_20%)] mask-shape-ellipse mask-radial"/>
 </div>
+
+<div class="absolute h-screen z-10">
+  <div class="top-10 left-0 bottom-0 mx-auto fixed right-0 w-80 overflow-hidden">
+  {{ readFile "assets/images/bplogo_extended_red.svg" | safeHTML }}
+  </div>
+</div>
+
+<div class="h-screen z-0 absolute">
+  <img src="/img/periwinkle-pattern.svg" class="w-full mx-auto fixed overflow-hidden"/>
+</div>
+
+
 
 
