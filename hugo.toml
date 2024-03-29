@@ -1,5 +1,6 @@
 baseURL = "/"
 relativeURLs = true
+canonifyURLs = true
 title = 'Babalar Press'
 
 
