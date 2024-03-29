@@ -1,5 +1,4 @@
-baseURL = "https://babalar-press.github.io/bp/"
-canonifyurls = true
+
 title = 'Babalar Press'
 
 
@@ -31,7 +30,7 @@ title = 'Babalar Press'
 
 
 
-defaultContentLanguage = 'kk-KZ'
+defaultContentLanguage = 'kz'
 defaultContentLanguageInSubdir = false
 
 [languages]

@@ -2,106 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://babalar-press.github.io/bp/about/</loc>
+    <loc>/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kk-KZ"
-                href="https://babalar-press.github.io/bp/kz/about/"
+                href="/kz/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://babalar-press.github.io/bp/ru/about/"
+                href="/ru/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://babalar-press.github.io/bp/about/"
+                href="/about/"
                 />
   </url><url>
-    <loc>https://babalar-press.github.io/bp/</loc>
+    <loc>/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kk-KZ"
-                href="https://babalar-press.github.io/bp/kz/"
+                href="/kz/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://babalar-press.github.io/bp/ru/"
+                href="/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://babalar-press.github.io/bp/"
+                href="/"
                 />
   </url><url>
-    <loc>https://babalar-press.github.io/bp/categories/</loc>
+    <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kk-KZ"
-                href="https://babalar-press.github.io/bp/kz/categories/"
+                href="/kz/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://babalar-press.github.io/bp/ru/categories/"
+                href="/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://babalar-press.github.io/bp/categories/"
+                href="/categories/"
                 />
   </url><url>
-    <loc>https://babalar-press.github.io/bp/contact/</loc>
+    <loc>/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kk-KZ"
-                href="https://babalar-press.github.io/bp/kz/contact/"
+                href="/kz/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://babalar-press.github.io/bp/ru/contact/"
+                href="/ru/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://babalar-press.github.io/bp/contact/"
+                href="/contact/"
                 />
   </url><url>
-    <loc>https://babalar-press.github.io/bp/publications/</loc>
+    <loc>/publications/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kk-KZ"
-                href="https://babalar-press.github.io/bp/kz/publications/"
+                href="/kz/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://babalar-press.github.io/bp/ru/publications/"
+                href="/ru/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://babalar-press.github.io/bp/publications/"
+                href="/publications/"
                 />
   </url><url>
-    <loc>https://babalar-press.github.io/bp/tags/</loc>
+    <loc>/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kk-KZ"
-                href="https://babalar-press.github.io/bp/kz/tags/"
+                href="/kz/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="https://babalar-press.github.io/bp/ru/tags/"
+                href="/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://babalar-press.github.io/bp/tags/"
+                href="/tags/"
                 />
   </url>
 </urlset>
