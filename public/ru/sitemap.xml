@@ -2,21 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/ru/</loc>
+    <loc>https://babalar-press.github.io/bp/ru/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="kk-kz"
-                href="/kz/"
+                hreflang="kk-KZ"
+                href="https://babalar-press.github.io/bp/kz/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/"
+                hreflang="en-US"
+                href="https://babalar-press.github.io/bp/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="/ru/"
+                hreflang="ru-RU"
+                href="https://babalar-press.github.io/bp/ru/"
+                />
+  </url><url>
+    <loc>https://babalar-press.github.io/bp/ru/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kk-KZ"
+                href="https://babalar-press.github.io/bp/kz/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://babalar-press.github.io/bp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://babalar-press.github.io/bp/ru/categories/"
+                />
+  </url><url>
+    <loc>https://babalar-press.github.io/bp/ru/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kk-KZ"
+                href="https://babalar-press.github.io/bp/kz/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://babalar-press.github.io/bp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://babalar-press.github.io/bp/ru/tags/"
+                />
+  </url><url>
+    <loc>https://babalar-press.github.io/bp/ru/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kk-KZ"
+                href="https://babalar-press.github.io/bp/kz/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://babalar-press.github.io/bp/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://babalar-press.github.io/bp/ru/about/"
+                />
+  </url><url>
+    <loc>https://babalar-press.github.io/bp/ru/publications/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kk-KZ"
+                href="https://babalar-press.github.io/bp/kz/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://babalar-press.github.io/bp/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://babalar-press.github.io/bp/ru/publications/"
+                />
+  </url><url>
+    <loc>https://babalar-press.github.io/bp/ru/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kk-KZ"
+                href="https://babalar-press.github.io/bp/kz/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://babalar-press.github.io/bp/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://babalar-press.github.io/bp/ru/contact/"
                 />
   </url>
 </urlset>

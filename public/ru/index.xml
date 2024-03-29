@@ -2,10 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Babalar Press</title>
-    <link>/ru/</link>
+    <link>https://babalar-press.github.io/bp/ru/</link>
     <description>Recent content on Babalar Press</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language>
-    <atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru-RU</language>
+    <atom:link href="https://babalar-press.github.io/bp/ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>О нас</title>
+      <link>https://babalar-press.github.io/bp/ru/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://babalar-press.github.io/bp/ru/about/</guid>
+      <description>About about</description>
+    </item>
+    <item>
+      <title>Публикации</title>
+      <link>https://babalar-press.github.io/bp/ru/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://babalar-press.github.io/bp/ru/publications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Связаться с нами</title>
+      <link>https://babalar-press.github.io/bp/ru/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://babalar-press.github.io/bp/ru/contact/</guid>
+      <description>Would you like to hear more from us? Contact us by email, follow us on instagram, or subscribe to our newsletter.</description>
+    </item>
   </channel>
 </rss>
