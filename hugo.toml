@@ -1,6 +1,4 @@
-baseURL = "https://babalar-press.github.io/bp"
-canonifyurls = true
-relativeURLs = "True"
+baseURL = "https://babalar-press.github.io/bp/"
 title = 'Babalar Press'
 
 
