@@ -32,7 +32,7 @@ title = 'Babalar Press'
 
 
 
-defaultContentLanguage = 'kz'
+defaultContentLanguage = 'kk-KZ'
 defaultContentLanguageInSubdir = false
 
 [languages]
