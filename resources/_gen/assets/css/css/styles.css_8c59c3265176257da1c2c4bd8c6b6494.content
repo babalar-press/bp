@@ -660,7 +660,7 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 .bg-white-wool {
-  background-image: url('/img/white_wool_3.jpeg');
+  background-image: url('img/white_wool_3.jpeg');
 }
 .from-lemon-yellow {
   --tw-gradient-from: #f1ff78 var(--tw-gradient-from-position);

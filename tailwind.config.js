@@ -100,7 +100,7 @@ module.exports = {
 
 			backgroundImage: {
 				'wool-texture': "url('/img/white-wool.png')",
-				'white-wool': "url('/img/white_wool_3.jpeg')",
+				'white-wool': "url('img/white_wool_3.jpeg')",
 			},
 		}
 	}
