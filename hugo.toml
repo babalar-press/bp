@@ -4,6 +4,9 @@ relativeURLS = true
 title = 'Babalar Press'
 
 
+defaultContentLanguage = 'kz'
+defaultContentLanguageInSubdir = false
+
 [module]
   [module.hugoVersion]
     extended = true
@@ -32,8 +35,6 @@ title = 'Babalar Press'
 
 
 
-defaultContentLanguage = 'kk-KZ'
-defaultContentLanguageInSubdir = false
 
 [languages]
 

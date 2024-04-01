@@ -653,9 +653,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\.\.\.\/img\/white_wool_3\.jpeg\'\)\] {
-  background-image: url('.../img/white_wool_3.jpeg');
-}
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
