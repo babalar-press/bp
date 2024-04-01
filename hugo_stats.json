@@ -27,6 +27,7 @@
       "[clip-path:xywh(10_10px_100%_100%_round_20%_20%)]",
       "absolute",
       "align-text-bottom",
+      "bg-[url('.../img/white_wool_3.jpeg')]",
       "bg-fixed",
       "bg-gradient-to-b",
       "bg-gradient-to-t",
