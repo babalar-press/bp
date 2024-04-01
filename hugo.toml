@@ -1,6 +1,6 @@
 baseURL = "https://babalar-press.github.io"
 canonifyurls = true
-relativeURLS = false
+
 title = 'Babalar Press'
 
 
