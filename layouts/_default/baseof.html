@@ -35,13 +35,10 @@
       <div class="bg-gradient-to-b from-periwinkle to-none sticky top-0 h-20 px-12">
         {{- partial "header.html" . -}}
       </div>
-      <div class="relative h-fit">
-      {{ if eq .Type "home" }}
-      {{- partial "horses.html" -}}{{ end }} </div>
-    <div class="mx-auto mt-0 max-w-full h-screen">
+    <div class="mx-auto mt-2">
       {{ block "main" . }}{{ end }}
     </div>
-    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none h-fit">
+    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none">
       {{- partial "footer.html" . -}}
     </div>
     

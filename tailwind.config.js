@@ -76,7 +76,7 @@ module.exports = {
 			},
 			boxShadow: {
 				'lg': '0px 2px 3px 6px',
-				'2xl': '10px 8px 8px 20px',
+				'2xl': '0px 0px 8px 8px',
 				'4xl': 'inset 0 0 90px 20px',
 			},
 			fontFamily: {

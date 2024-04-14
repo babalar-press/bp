@@ -1,11 +1,11 @@
 [home]
-other = "Home"
+other = "home"
 
 [about]
-other = "About"
+other = "about"
 
 [contact]
-other = "Contact"
+other = "contact"
 
 [publications]
-other = "Publications"
+other = "publications"
