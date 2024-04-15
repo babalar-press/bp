@@ -7,7 +7,7 @@
     {{range $index, $element := $menu}}
       {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
       {{ $active = or $active (eq .Name $currentPage.Title) }}
-        <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-sans-serif text-lg text-brown hover:shadow-2xl hover:shadow-red bg-white shadow-2xl shadow-white rounded-xl hover:bg-red hover:text-periwinkle hover:rounded-xl">
+        <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-sans-serif lg:text-lg md:text-4xl sm:text-4xl md:rounded-full sm:rounded-full text-brown hover:shadow-2xl hover:shadow-red bg-white shadow-2xl shadow-white lg:rounded-xl hover:bg-red hover:text-periwinkle hover:rounded-xl">
           <a  href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
       </div>
 
