@@ -873,8 +873,16 @@ html {
     margin-right: auto;
   }
 
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .sm\:mt-2 {
     margin-top: 0.5rem;
+  }
+
+  .sm\:mt-20 {
+    margin-top: 5rem;
   }
 
   .sm\:mt-4 {
@@ -901,8 +909,20 @@ html {
     height: 50%;
   }
 
+  .sm\:h-fit {
+    height: fit-content;
+  }
+
+  .sm\:h-min {
+    height: min-content;
+  }
+
   .sm\:w-64 {
     width: 16rem;
+  }
+
+  .sm\:w-fit {
+    width: fit-content;
   }
 
   .sm\:w-full {
@@ -937,12 +957,32 @@ html {
     gap: 2.5rem;
   }
 
+  .sm\:gap-20 {
+    gap: 5rem;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
   .sm\:gap-6 {
     gap: 1.5rem;
   }
 
   .sm\:gap-8 {
     gap: 2rem;
+  }
+
+  .sm\:gap-y-4 {
+    row-gap: 1rem;
+  }
+
+  .sm\:gap-y-6 {
+    row-gap: 1.5rem;
+  }
+
+  .sm\:gap-y-8 {
+    row-gap: 2rem;
   }
 
   .sm\:rounded-full {
@@ -989,6 +1029,73 @@ html {
   .hover\:sm\:rounded-full:hover {
     border-radius: 9999px;
   }
+
+  @media not all and (min-width: 1536px) {
+
+    .sm\:max-2xl\:flex {
+      display: flex;
+    }
+
+    .sm\:max-2xl\:grid {
+      display: grid;
+    }
+
+    .sm\:max-2xl\:grid-cols-\[max_content-1fr\] {
+      grid-template-columns: max content-1fr;
+    }
+  }
+
+  @media not all and (min-width: 1280px) {
+
+    .sm\:max-xl\:flex {
+      display: flex;
+    }
+  }
+
+  @media not all and (min-width: 1024px) {
+
+    .sm\:max-lg\:flex {
+      display: flex;
+    }
+
+    .sm\:max-lg\:grid {
+      display: grid;
+    }
+
+    .sm\:max-lg\:place-content-end {
+      place-content: end;
+    }
+  }
+
+  @media not all and (min-width: 768px) {
+
+    .sm\:max-md\:flex {
+      display: flex;
+    }
+
+    .sm\:max-md\:place-content-end {
+      place-content: end;
+    }
+  }
+
+  @media not all and (min-width: 640px) {
+
+    .sm\:max-sm\:flex {
+      display: flex;
+    }
+
+    .sm\:max-sm\:grid {
+      display: grid;
+    }
+
+    .sm\:max-sm\:grid-cols-\[max_content-1fr\] {
+      grid-template-columns: max content-1fr;
+    }
+
+    .sm\:max-sm\:place-content-end {
+      place-content: end;
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -1018,6 +1125,10 @@ html {
     margin-right: auto;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:grid {
     display: grid;
   }
@@ -1040,6 +1151,10 @@ html {
 
   .md\:grid-cols-\[max_content-1fr\] {
     grid-template-columns: max content-1fr;
+  }
+
+  .md\:place-content-end {
+    place-content: end;
   }
 
   .md\:rounded-full {
@@ -1082,6 +1197,28 @@ html {
   .hover\:md\:rounded-full:hover {
     border-radius: 9999px;
   }
+
+  @media not all and (min-width: 1024px) {
+
+    .md\:max-lg\:grid {
+      display: grid;
+    }
+
+    .md\:max-lg\:grid-cols-\[max_content-1fr\] {
+      grid-template-columns: max content-1fr;
+    }
+  }
+
+  @media not all and (min-width: 768px) {
+
+    .md\:max-md\:grid {
+      display: grid;
+    }
+
+    .md\:max-md\:grid-cols-\[max_content-1fr\] {
+      grid-template-columns: max content-1fr;
+    }
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1096,6 +1233,10 @@ html {
 
   .lg\:top-40 {
     top: 10rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:mt-2 {
@@ -1116,6 +1257,10 @@ html {
 
   .lg\:h-fit {
     height: fit-content;
+  }
+
+  .lg\:h-min {
+    height: min-content;
   }
 
   .lg\:w-80 {
@@ -1154,6 +1299,14 @@ html {
     gap: 2rem;
   }
 
+  .lg\:gap-x-8 {
+    column-gap: 2rem;
+  }
+
+  .lg\:gap-y-10 {
+    row-gap: 2.5rem;
+  }
+
   .lg\:rounded-xl {
     border-radius: 0.75rem;
   }
@@ -1181,5 +1334,39 @@ html {
 
   .hover\:lg\:rounded-xl:hover {
     border-radius: 0.75rem;
+  }
+
+  @media not all and (min-width: 1536px) {
+
+    .lg\:max-2xl\:flex {
+      display: flex;
+    }
+
+    .lg\:max-2xl\:grid {
+      display: grid;
+    }
+
+    .lg\:max-2xl\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .lg\:max-2xl\:place-content-end {
+      place-content: end;
+    }
+  }
+
+  @media not all and (min-width: 768px) {
+
+    .lg\:max-md\:flex {
+      display: flex;
+    }
+
+    .lg\:max-md\:grid {
+      display: grid;
+    }
+
+    .lg\:max-md\:place-content-end {
+      place-content: end;
+    }
   }
 }
