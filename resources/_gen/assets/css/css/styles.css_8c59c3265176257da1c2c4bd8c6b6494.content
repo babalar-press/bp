@@ -564,6 +564,9 @@ video {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mt-5 {
+  margin-top: 1.25rem;
+}
 .flex {
   display: flex;
 }
@@ -593,6 +596,15 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-max {
+  width: max-content;
+}
+.w-min {
+  width: min-content;
+}
+.w-screen {
+  width: 100vw;
 }
 .max-w-md {
   max-width: 28rem;
@@ -836,16 +848,125 @@ html {
 
 @media (min-width: 640px) {
 
+  .sm\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .sm\:top-20 {
+    top: 5rem;
+  }
+
+  .sm\:top-40 {
+    top: 10rem;
+  }
+
+  .sm\:top-60 {
+    top: 15rem;
+  }
+
+  .sm\:top-80 {
+    top: 20rem;
+  }
+
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .sm\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:grid {
+    display: grid;
+  }
+
   .sm\:h-60 {
     height: 15rem;
+  }
+
+  .sm\:h-\[50\%\] {
+    height: 50%;
+  }
+
+  .sm\:w-64 {
+    width: 16rem;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-\[max_content-1fr\] {
+    grid-template-columns: max content-1fr;
+  }
+
+  .sm\:place-content-center {
+    place-content: center;
+  }
+
+  .sm\:place-content-start {
+    place-content: start;
+  }
+
+  .sm\:place-content-end {
+    place-content: end;
+  }
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .sm\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .sm\:gap-8 {
+    gap: 2rem;
+  }
+
   .sm\:rounded-full {
     border-radius: 9999px;
+  }
+
+  .sm\:p-0 {
+    padding: 0px;
+  }
+
+  .sm\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .sm\:p-8 {
+    padding: 2rem;
+  }
+
+  .sm\:p-9 {
+    padding: 2.25rem;
   }
 
   .sm\:text-2xl {
@@ -859,16 +980,86 @@ html {
   .sm\:text-4xl {
     font-size: 2.441rem;
   }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .hover\:sm\:rounded-full:hover {
+    border-radius: 9999px;
+  }
 }
 
 @media (min-width: 768px) {
+
+  .md\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .md\:top-20 {
+    top: 5rem;
+  }
+
+  .md\:top-40 {
+    top: 10rem;
+  }
+
+  .md\:top-60 {
+    top: 15rem;
+  }
+
+  .md\:top-80 {
+    top: 20rem;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
 
   .md\:h-60 {
     height: 15rem;
   }
 
+  .md\:h-\[50\%\] {
+    height: 50%;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:grid-cols-\[max_content-1fr\] {
+    grid-template-columns: max content-1fr;
+  }
+
   .md\:rounded-full {
     border-radius: 9999px;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:text-2xl {
@@ -878,12 +1069,61 @@ html {
   .md\:text-4xl {
     font-size: 2.441rem;
   }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:\[clip-path\:xywh\(10_10px_100\%_80\%_round_20\%_20\%\)\] {
+    clip-path: xywh(10 10px 100% 80% round 20% 20%);
+  }
+
+  .hover\:md\:rounded-full:hover {
+    border-radius: 9999px;
+  }
 }
 
 @media (min-width: 1024px) {
 
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:top-10 {
+    top: 2.5rem;
+  }
+
+  .lg\:top-40 {
+    top: 10rem;
+  }
+
+  .lg\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
+  }
+
   .lg\:h-20 {
     height: 5rem;
+  }
+
+  .lg\:h-fit {
+    height: fit-content;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-fit {
+    width: fit-content;
   }
 
   .lg\:grid-cols-2 {
@@ -898,8 +1138,28 @@ html {
     grid-template-columns: max-content 1fr;
   }
 
+  .lg\:place-content-start {
+    place-content: start;
+  }
+
+  .lg\:place-content-end {
+    place-content: end;
+  }
+
+  .lg\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+
   .lg\:rounded-xl {
     border-radius: 0.75rem;
+  }
+
+  .lg\:p-2 {
+    padding: 0.5rem;
   }
 
   .lg\:text-base {
@@ -913,5 +1173,13 @@ html {
 
   .lg\:text-sm {
     font-size: 0.8rem;
+  }
+
+  .lg\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
+    clip-path: xywh(10 10px 100% 100% round 20% 20%);
+  }
+
+  .hover\:lg\:rounded-xl:hover {
+    border-radius: 0.75rem;
   }
 }

@@ -30,17 +30,44 @@
   
   </head>
   
-  <body class="bg-white-wool bg-fixed w-full h-screen overflow-scroll">
-  
-      <div class="bg-gradient-to-b from-periwinkle to-none sticky top-0 lg:h-20 sm:h-60 md:h-60 px-12">
-        {{- partial "header.html" . -}}
+  <body>
+
+    <!--bg-->
+    
+    {{ if eq .Type "home" }}
+    <div class="bg-white-wool bg-fixed relative w-full h-screen overflow-scroll">
+      
+      <div class="h-fit z-10 absolute">
+        <img src="/img/Horses_in_Kazakhstan.jpg" class="w-[80%] left-0 right-0 lg:top-10 sm:top-80 md:top-80 bottom-10 mx-auto fixed  
+      lg:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)] md:[clip-path:xywh(10_10px_100%_80%_round_20%_20%)] mask-shape-ellipse mask-radial"/>
       </div>
-    <div class="mx-auto mt-2">
+    
+      <div class="absolute h-fit z-10">
+        <div class="lg:top-40 sm:top-80 md:top-80 left-0 bottom-0 mx-auto fixed right-0 lg:w-80 sm:w-64 md:w-64 overflow-hidden">
+        {{ readFile "assets/images/bplogo_extended_red.svg" | safeHTML }}
+      </div>
+      </div>
+    
+      <div class="lg:h-fit sm:h-[50%] md:h-[50%] z-1 absolute">
+        <img src="/img/periwinkle-pattern.svg" class="w-full mx-auto lg:top-10 sm:top-80 md:top-80 left-0 right-0 lg:bottom-0 sm:bottom-40 md:bottom-40 fixed overflow-hidden"/>
+      </div>{{end}}
+    
+    <!--header-->
+    <div class="bg-gradient-to-b from-periwinkle to-none sticky top-0 lg:h-20 sm:h-60 md:h-60 px-12 z-0">
+      {{- partial "header.html" . -}}
+      </div>
+    
+    <!--pages-->
+    <div class="mx-auto mt-5 z-0">
       {{ block "main" . }}{{ end }}
     </div>
-    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none">
+
+    <!--footer-->
+    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none z-0">
       {{- partial "footer.html" . -}}
     </div>
-    
+
+    </div>
+
   </body>
 </html>
