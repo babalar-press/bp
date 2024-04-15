@@ -1,7 +1,6 @@
 ---
-        Title: "Басылымдар"
+        Title: "Publications"
         Layout: "publications"
-        Type: "kz"
         Draft: "false"
 
 ---

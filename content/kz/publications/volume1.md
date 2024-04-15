@@ -1,7 +1,7 @@
 ---
         Title: "Volume 1"
-        Layout: "single"
-        Type: "en"
+        Layout: "volume"
+        Type: "publication"
         Draft: "false"
 
 ---
