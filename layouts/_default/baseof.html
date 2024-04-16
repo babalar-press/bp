@@ -30,17 +30,17 @@
   
   </head>
   
-  <body class="bg-periwinkle h-screen bg-fixed overflow-scroll">
+  <body class="bg-gradient-to-b from-red to-periwinkle max-h-[100%] bg-fixed overflow-scroll">
 
     <!--bg-->
     
         {{ if eq .Type "home" }}
-        <div class="bg-white-wool bg-fixed relative w-full overflow-scroll"> 
+        <div class="bg-white-wool bg-fixed relative w-full h-screen overflow-scroll"> 
         {{end}}
 
     
     <!--header-->
-    <div class="bg-gradient-to-b from-periwinkle to-none sticky top-0 h-60 md:h-60 lg:h-20 xl:h-20 px-12 z-0">
+    <div class="bg-gradient-to-b from-periwinkle to-none sm:sticky lg:sticky top-0 h-72 md:h-72 lg:h-40 xl:h-40 px-12 z-0">
       {{- partial "header.html" . -}}
       </div>
     
