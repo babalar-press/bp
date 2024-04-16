@@ -1,6 +1,6 @@
 ---
         Title: "Публикации"
-        Layout: "publications"
+        Layout: "list_ru"
         Draft: "false"
 
 ---
