@@ -7,11 +7,12 @@
     {{range $index, $element := $menu}}
       {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
       {{ $active = or $active (eq .Name $currentPage.Title) }}
-        <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} font-sans-serif
-        lg:text-lg lg:w-fit sm:w-fit lg:h-fit sm:h-fit sm:text-6xl md:rounded-full sm:rounded-full text-brown 
+        <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} 
+        font-sans-serif 
+        lg:text-lg lg:w-fit sm:w-max lg:h-fit sm:h-fit sm:text-6xl md:rounded-full sm:rounded-full text-brown 
         hover:shadow-2xl hover:shadow-red bg-white shadow-2xl shadow-white lg:rounded-xl
         hover:bg-red hover:text-periwinkle hover:lg:rounded-xl hover:sm:rounded-full hover:md:rounded-full">
-          <a  href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
+          <a href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
       </div>
 
     {{end}}
@@ -24,7 +25,10 @@
         {{ $translation := index (where $.Page.Translations "Language.Lang" .Language.Lang) 0 }}
         {{ $no_translation := index (where ($.Site.GetPage "/no-translation.md").Translations "Language.Lang" .Language.Lang) 0 }}
 
-          <a class="language-switch lg:w-fit sm:w-fit lg:h-fit sm:h-fit bg-white shadow-2xl shadow-white lg:rounded-xl hover:bg-red hover:shadow-2xl hover:shadow-red hover:text-periwinkle hover:lg:rounded-xl hover:sm:rounded-full hover:md:rounded-full text-brown font-sans-serif lg:text-lg md:text-6xl sm:text-6xl md:rounded-full sm:rounded-full" href="{{ default $no_translation.Permalink $translation.Permalink }}">
+          <a class="language-switch lg:w-fit sm:w-min lg:h-fit sm:h-min bg-white shadow-2xl shadow-white
+          lg:rounded-xl hover:bg-red hover:shadow-2xl hover:shadow-red hover:text-periwinkle hover:lg:rounded-xl 
+          hover:sm:rounded-full hover:md:rounded-full text-brown font-sans-serif lg:text-lg md:text-6xl sm:text-6xl 
+          md:rounded-full sm:rounded-full" href="{{ default $no_translation.Permalink $translation.Permalink }}">
             {{ .Language.LanguageName }}
           </a>
 
