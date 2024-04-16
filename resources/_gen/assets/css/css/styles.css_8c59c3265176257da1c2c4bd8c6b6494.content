@@ -549,8 +549,14 @@ video {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .mb-7 {
   margin-bottom: 1.75rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .mt-5 {
   margin-top: 1.25rem;
@@ -588,11 +594,20 @@ video {
 .max-w-\[100\%\] {
   max-width: 100%;
 }
+.max-w-md {
+  max-width: 28rem;
+}
 .cursor-pointer {
   cursor: pointer;
 }
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
 .place-content-center {
   place-content: center;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .gap-4 {
   gap: 1rem;
@@ -660,6 +675,9 @@ video {
 .p-2 {
   padding: 0.5rem;
 }
+.p-4 {
+  padding: 1rem;
+}
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -680,6 +698,9 @@ video {
 }
 .font-serif {
   font-family: Lora;
+}
+.text-4xl {
+  font-size: 2.441rem;
 }
 .font-light {
   font-weight: 300;
@@ -773,22 +794,6 @@ html {
 
 @media (min-width: 640px) {
 
-  .sm\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .sm\:bottom-40 {
-    bottom: 10rem;
-  }
-
-  .sm\:top-72 {
-    top: 18rem;
-  }
-
-  .sm\:top-80 {
-    top: 20rem;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -810,24 +815,12 @@ html {
     display: grid;
   }
 
-  .sm\:h-60 {
-    height: 15rem;
-  }
-
   .sm\:h-fit {
     height: fit-content;
   }
 
-  .sm\:h-max {
-    height: max-content;
-  }
-
   .sm\:h-min {
     height: min-content;
-  }
-
-  .sm\:w-\[80\%\] {
-    width: 80%;
   }
 
   .sm\:w-full {
@@ -840,10 +833,6 @@ html {
 
   .sm\:w-min {
     width: min-content;
-  }
-
-  .sm\:max-w-\[100\%\] {
-    max-width: 100%;
   }
 
   .sm\:grid-cols-1 {
@@ -899,10 +888,6 @@ html {
     line-height: 1;
   }
 
-  .sm\:\[clip-path\:xywh\(50_50px_60\%_30\%_round_20\%_20\%\)\] {
-    clip-path: xywh(50 50px 60% 30% round 20% 20%);
-  }
-
   .hover\:sm\:rounded-full:hover {
     border-radius: 9999px;
   }
@@ -937,10 +922,6 @@ html {
 
   .md\:h-fit {
     height: fit-content;
-  }
-
-  .md\:h-max {
-    height: max-content;
   }
 
   .md\:w-\[80\%\] {
@@ -999,14 +980,6 @@ html {
     bottom: 2.5rem;
   }
 
-  .lg\:left-0 {
-    left: 0px;
-  }
-
-  .lg\:right-0 {
-    right: 0px;
-  }
-
   .lg\:top-10 {
     top: 2.5rem;
   }
@@ -1039,10 +1012,6 @@ html {
     height: fit-content;
   }
 
-  .lg\:h-max {
-    height: max-content;
-  }
-
   .lg\:w-80 {
     width: 20rem;
   }
@@ -1061,6 +1030,10 @@ html {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-\[max-content_1fr\] {

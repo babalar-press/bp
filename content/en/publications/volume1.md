@@ -1,6 +1,6 @@
 ---
         Title: "Volume 1"
-        Layout: "volume"
+        Layout: "single"
         Draft: "false"
 
 ---

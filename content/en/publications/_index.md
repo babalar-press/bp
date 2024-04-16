@@ -1,6 +1,6 @@
 ---
         Title: "Publications"
-        Layout: "publications"
+        Layout: "list"
         Draft: "false"
 
 ---
