@@ -555,6 +555,9 @@ video {
 .h-fit {
   height: fit-content;
 }
+.h-full {
+  height: 100%;
+}
 .h-min {
   height: min-content;
 }
@@ -582,14 +585,14 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.overflow-clip {
+  overflow: clip;
+}
+.overflow-visible {
+  overflow: visible;
+}
 .overflow-scroll {
   overflow: scroll;
-}
-.whitespace-nowrap {
-  white-space: nowrap;
-}
-.break-keep {
-  word-break: keep-all;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -766,8 +769,8 @@ html {
     bottom: 10rem;
   }
 
-  .sm\:top-10 {
-    top: 2.5rem;
+  .sm\:top-56 {
+    top: 14rem;
   }
 
   .sm\:top-80 {
@@ -817,10 +820,6 @@ html {
 
   .sm\:w-\[80\%\] {
     width: 80%;
-  }
-
-  .sm\:w-fit {
-    width: fit-content;
   }
 
   .sm\:w-full {
@@ -907,8 +906,8 @@ html {
     bottom: 10rem;
   }
 
-  .md\:top-10 {
-    top: 2.5rem;
+  .md\:top-56 {
+    top: 14rem;
   }
 
   .md\:top-80 {
