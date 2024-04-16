@@ -1,7 +1,7 @@
 ---
         Title: "Publications"
-        Layout: "list"
-        Type: "publications"
+        Layout: "publications"
+
         Draft: "false"
 
 ---

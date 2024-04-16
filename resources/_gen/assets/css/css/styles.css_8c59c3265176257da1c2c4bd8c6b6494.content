@@ -555,9 +555,6 @@ video {
 .h-fit {
   height: fit-content;
 }
-.h-full {
-  height: 100%;
-}
 .h-min {
   height: min-content;
 }
@@ -584,12 +581,6 @@ video {
 }
 .overflow-hidden {
   overflow: hidden;
-}
-.overflow-clip {
-  overflow: clip;
-}
-.overflow-visible {
-  overflow: visible;
 }
 .overflow-scroll {
   overflow: scroll;
@@ -777,10 +768,6 @@ html {
     top: 20rem;
   }
 
-  .sm\:top-\[90\%\] {
-    top: 90%;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -912,10 +899,6 @@ html {
 
   .md\:top-80 {
     top: 20rem;
-  }
-
-  .md\:top-\[90\%\] {
-    top: 90%;
   }
 
   .md\:mx-auto {
