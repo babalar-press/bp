@@ -612,6 +612,9 @@ video {
 .w-full {
   width: 100%;
 }
+.max-w-2xl {
+  max-width: 42rem;
+}
 .max-w-\[100\%\] {
   max-width: 100%;
 }
@@ -629,6 +632,9 @@ video {
 }
 .place-content-end {
   place-content: end;
+}
+.gap-1 {
+  gap: 0.25rem;
 }
 .gap-2 {
   gap: 0.5rem;
@@ -886,6 +892,10 @@ html {
     width: min-content;
   }
 
+  .sm\:max-w-\[100\%\] {
+    max-width: 100%;
+  }
+
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -922,6 +932,10 @@ html {
     border-radius: 9999px;
   }
 
+  .sm\:p-0 {
+    padding: 0px;
+  }
+
   .sm\:p-10 {
     padding: 2.5rem;
   }
@@ -945,6 +959,10 @@ html {
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .sm\:\[clip-path\:xywh\(50_50px_60\%_30\%_round_20\%_20\%\)\] {
+    clip-path: xywh(50 50px 60% 30% round 20% 20%);
   }
 
   .hover\:sm\:rounded-full:hover {
@@ -987,12 +1005,24 @@ html {
     height: fit-content;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:h-min {
+    height: min-content;
+  }
+
   .md\:w-\[80\%\] {
     width: 80%;
   }
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:max-w-2xl {
+    max-width: 42rem;
   }
 
   .md\:max-w-\[100\%\] {
@@ -1013,6 +1043,10 @@ html {
 
   .md\:text-2xl {
     font-size: 1.563rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.953rem;
   }
 
   .md\:text-4xl {
@@ -1068,6 +1102,10 @@ html {
     margin-top: 0px;
   }
 
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .lg\:mt-2 {
     margin-top: 0.5rem;
   }
@@ -1100,6 +1138,14 @@ html {
     height: fit-content;
   }
 
+  .lg\:h-min {
+    height: min-content;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
   .lg\:w-80 {
     width: 20rem;
   }
@@ -1116,6 +1162,18 @@ html {
     width: 100%;
   }
 
+  .lg\:w-max {
+    width: max-content;
+  }
+
+  .lg\:max-w-\[100\%\] {
+    max-width: 100%;
+  }
+
+  .lg\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1126,6 +1184,10 @@ html {
 
   .lg\:grid-cols-\[max-content_1fr\] {
     grid-template-columns: max-content 1fr;
+  }
+
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .lg\:place-content-start {
@@ -1158,6 +1220,10 @@ html {
 
   .lg\:p-2 {
     padding: 0.5rem;
+  }
+
+  .lg\:p-4 {
+    padding: 1rem;
   }
 
   .lg\:text-2xl {
@@ -1218,6 +1284,10 @@ html {
 
   .xl\:w-80 {
     width: 20rem;
+  }
+
+  .xl\:w-\[80\%\] {
+    width: 80%;
   }
 
   .xl\:w-full {
