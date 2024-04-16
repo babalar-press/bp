@@ -896,6 +896,10 @@ html {
     max-height: 100vh;
   }
 
+  .sm\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .sm\:w-\[80\%\] {
     width: 80%;
   }
@@ -928,6 +932,10 @@ html {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sm\:place-content-center {
+    place-content: center;
+  }
+
   .sm\:place-content-end {
     place-content: end;
   }
@@ -950,6 +958,14 @@ html {
 
   .sm\:gap-y-8 {
     row-gap: 2rem;
+  }
+
+  .sm\:overflow-clip {
+    overflow: clip;
+  }
+
+  .sm\:overflow-scroll {
+    overflow: scroll;
   }
 
   .sm\:rounded-full {
@@ -1109,6 +1125,10 @@ html {
 
 @media (min-width: 1024px) {
 
+  .lg\:fixed {
+    position: fixed;
+  }
+
   .lg\:sticky {
     position: sticky;
   }
@@ -1252,6 +1272,14 @@ html {
 
   .lg\:gap-y-10 {
     row-gap: 2.5rem;
+  }
+
+  .lg\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .lg\:overflow-scroll {
+    overflow: scroll;
   }
 
   .lg\:rounded-xl {
