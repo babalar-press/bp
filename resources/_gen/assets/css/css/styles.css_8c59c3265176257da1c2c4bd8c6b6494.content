@@ -552,8 +552,14 @@ video {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mt-0 {
+  margin-top: 0px;
+}
 .mt-10 {
   margin-top: 2.5rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
 }
 .mt-5 {
   margin-top: 1.25rem;
@@ -1157,6 +1163,14 @@ html {
     display: grid;
   }
 
+  .lg\:h-24 {
+    height: 6rem;
+  }
+
+  .lg\:h-28 {
+    height: 7rem;
+  }
+
   .lg\:h-40 {
     height: 10rem;
   }
@@ -1311,6 +1325,14 @@ html {
 
   .xl\:top-40 {
     top: 10rem;
+  }
+
+  .xl\:h-24 {
+    height: 6rem;
+  }
+
+  .xl\:h-28 {
+    height: 7rem;
   }
 
   .xl\:h-40 {
