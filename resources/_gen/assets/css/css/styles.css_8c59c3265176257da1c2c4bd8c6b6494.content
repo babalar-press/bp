@@ -558,6 +558,9 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-60 {
+  margin-top: 15rem;
+}
 .flex {
   display: flex;
 }
@@ -666,7 +669,7 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 .bg-periwinkle-ornament {
-  background-image: url('/img/periwinkle-pattern_4.svg');
+  background-image: url('../img/periwinkle-pattern_4.svg');
 }
 .bg-white-wool {
   background-image: url('../img/white_wool_3.jpeg');
