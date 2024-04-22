@@ -4,8 +4,8 @@ other = "главная"
 [about]
 other = "о нас"
 
-[contact]
-other = "связаться с нами"
+[agenda]
+other = "ивенты"
 
 [publications]
 other = "публикации"

@@ -71,8 +71,8 @@ defaultContentLanguageInSubdir = false
       weight = 20
 
     [[menu.main]]
-      identifier = 'contact'
-      url = '/contact'
+      identifier = 'agenda'
+      url = '/agenda'
       weight = 40
 
      [[menu.main]]
@@ -92,8 +92,8 @@ defaultContentLanguageInSubdir = false
       weight = 20
 
     [[menu.main]]
-      identifier = 'contact'
-      url = '/contact'
+      identifier = 'agenda'
+      url = '/agenda'
       weight = 40
 
      [[menu.main]]
@@ -112,8 +112,8 @@ defaultContentLanguageInSubdir = false
       weight = 20
 
     [[menu.main]]
-      identifier = 'contact'
-      url = '/contact'
+      identifier = 'agenda'
+      url = '/agenda'
       weight = 40
 
     [[menu.main]]

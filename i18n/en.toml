@@ -4,8 +4,8 @@ other = "home"
 [about]
 other = "about"
 
-[contact]
-other = "contact"
+[agenda]
+other = "agenda"
 
 [publications]
 other = "publications"

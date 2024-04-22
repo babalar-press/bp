@@ -101,6 +101,7 @@ module.exports = {
 			backgroundImage: {
 				'wool-texture': "url('/img/white-wool.png')",
 				'white-wool': "url('../img/white_wool_3.jpeg')", 
+				'periwinkle-ornament': "url('/img/periwinkle-pattern_4.svg')",
 			},
 		}
 	}
