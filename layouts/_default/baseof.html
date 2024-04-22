@@ -30,15 +30,15 @@
     <!--bg-->
     
         {{ if eq .Type "home" }}
-        <div class="bg-gradient-to-b from-periwinkle to-red bg-cover max-w-full h-screen
+        <div class="bg-gradient-to-b from-periwinkle from-10% to-red bg-cover max-w-full h-fit
         overflow-scroll"> 
-        <div class="bg-periwinkle-ornament bg-cover max-w-full h-screen
+        <div class="bg-periwinkle-ornament bg-cover max-w-full h-fit
         overflow-scroll"> 
         {{end}}
 
     
     <!--header-->
-    <div class="bg-gradient-to-b from-periwinkle to-none sm:sticky lg:sticky top-0 h-72 md:h-72 lg:h-20 xl:h-20 px-12 z-10">
+    <div class="bg-gradient-to-b from-periwinkle sm:sticky lg:sticky top-0 h-72 md:h-72 lg:h-20 xl:h-20 px-12 z-10">
       {{- partial "header.html" . -}}
       </div>
     

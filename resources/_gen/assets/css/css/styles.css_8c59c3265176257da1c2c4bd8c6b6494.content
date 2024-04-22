@@ -582,9 +582,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-min {
-  width: min-content;
-}
 .max-w-full {
   max-width: 100%;
 }
@@ -618,11 +615,20 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-x-8 {
+  column-gap: 2rem;
+}
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
 .gap-y-6 {
   row-gap: 1.5rem;
 }
 .overflow-scroll {
   overflow: scroll;
+}
+.break-all {
+  word-break: break-all;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -662,8 +668,8 @@ video {
 .bg-periwinkle-ornament {
   background-image: url('/img/periwinkle-pattern_4.svg');
 }
-.bg-red-ornament {
-  background-image: url('/img/red-pattern_4.svg');
+.bg-white-wool {
+  background-image: url('../img/white_wool_3.jpeg');
 }
 .from-lemon-yellow {
   --tw-gradient-from: #f1ff78 var(--tw-gradient-from-position);
@@ -679,6 +685,9 @@ video {
   --tw-gradient-from: #b3452f var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(179 69 47 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-10\% {
+  --tw-gradient-from-position: 10%;
 }
 .to-periwinkle {
   --tw-gradient-to: #c0c8db var(--tw-gradient-to-position);
@@ -742,6 +751,9 @@ video {
 }
 .leading-\[3\.5rem\] {
   line-height: 3.5rem;
+}
+.leading-\[3rem\] {
+  line-height: 3rem;
 }
 .text-brown {
   --tw-text-opacity: 1;
