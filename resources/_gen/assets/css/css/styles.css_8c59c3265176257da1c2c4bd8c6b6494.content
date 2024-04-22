@@ -517,9 +517,6 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
-.bottom-40 {
-  bottom: 10rem;
-}
 .left-0 {
   left: 0px;
 }
@@ -531,9 +528,6 @@ video {
 }
 .top-72 {
   top: 18rem;
-}
-.top-80 {
-  top: 20rem;
 }
 .z-0 {
   z-index: 0;
@@ -549,12 +543,6 @@ video {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -567,12 +555,6 @@ video {
 .mt-10 {
   margin-top: 2.5rem;
 }
-.mt-3 {
-  margin-top: 0.75rem;
-}
-.mt-4 {
-  margin-top: 1rem;
-}
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -582,17 +564,11 @@ video {
 .grid {
   display: grid;
 }
-.h-60 {
-  height: 15rem;
-}
 .h-72 {
   height: 18rem;
 }
 .h-fit {
   height: fit-content;
-}
-.h-max {
-  height: max-content;
 }
 .h-min {
   height: min-content;
@@ -603,20 +579,14 @@ video {
 .max-h-\[100\%\] {
   max-height: 100%;
 }
-.w-\[80\%\] {
-  width: 80%;
-}
 .w-fit {
   width: fit-content;
 }
 .w-full {
   width: 100%;
 }
-.max-w-2xl {
-  max-width: 42rem;
-}
-.max-w-\[100\%\] {
-  max-width: 100%;
+.w-screen {
+  width: 100vw;
 }
 .max-w-md {
   max-width: 28rem;
@@ -633,9 +603,6 @@ video {
 .place-content-end {
   place-content: end;
 }
-.gap-1 {
-  gap: 0.25rem;
-}
 .gap-2 {
   gap: 0.5rem;
 }
@@ -645,11 +612,11 @@ video {
 .gap-y-6 {
   row-gap: 1.5rem;
 }
-.overflow-hidden {
-  overflow: hidden;
-}
 .overflow-scroll {
   overflow: scroll;
+}
+.overflow-ellipsis {
+  text-overflow: ellipsis;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -667,10 +634,6 @@ video {
 .bg-lemon-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(241 255 120 / var(--tw-bg-opacity));
-}
-.bg-olive {
-  --tw-bg-opacity: 1;
-  background-color: rgb(122 111 78 / var(--tw-bg-opacity));
 }
 .bg-periwinkle {
   --tw-bg-opacity: 1;
@@ -711,11 +674,20 @@ video {
 .to-periwinkle {
   --tw-gradient-to: #c0c8db var(--tw-gradient-to-position);
 }
-.to-red {
-  --tw-gradient-to: #b3452f var(--tw-gradient-to-position);
-}
 .bg-fixed {
   background-attachment: fixed;
+}
+.object-contain {
+  object-fit: contain;
+}
+.object-cover {
+  object-fit: cover;
+}
+.object-fill {
+  object-fit: fill;
+}
+.object-none {
+  object-fit: none;
 }
 .p-2 {
   padding: 0.5rem;
@@ -786,6 +758,20 @@ video {
   --tw-shadow-color: #ffffff;
   --tw-shadow: var(--tw-shadow-colored);
 }
+.mask-linear {
+  mask-image: linear-gradient(var(--tw-mask-direction), var(--tw-mask-stops));
+  --tw-mask-direction: to bottom;
+  --tw-mask-shape: ;
+  --tw-mask-reach: closest-side;
+  --tw-mask-at: center;
+  --tw-mask-from-opacity: 1;
+  --tw-mask-point-from: ;
+  --tw-mask-from: rgba(0,0,0,var(--tw-mask-from-opacity)) var(--tw-mask-point-from);
+  --tw-mask-to-opacity: 0;
+  --tw-mask-point-to: ;
+  --tw-mask-to: rgba(0,0,0,var(--tw-mask-to-opacity)) var(--tw-mask-point-to);
+  --tw-mask-stops: var(--tw-mask-from), var(--tw-mask-to);
+}
 .mask-radial {
   mask-image: radial-gradient(var(--tw-mask-shape) var(--tw-mask-reach) at var(--tw-mask-at), var(--tw-mask-stops));
   --tw-mask-direction: to bottom;
@@ -803,8 +789,18 @@ video {
 .mask-shape-ellipse {
   --tw-mask-shape: ellipse;
 }
-.\[clip-path\:xywh\(50_50px_60\%_30\%_round_20\%_20\%\)\] {
-  clip-path: xywh(50 50px 60% 30% round 20% 20%);
+.mask-to-10 {
+  --tw-mask-to-opacity: 0.1;
+}
+.mask-via-0 {
+  --tw-mask-point-via: ;
+  --tw-mask-stops: var(--tw-mask-from), rgba(0,0,0,0) var(--tw-mask-point-via), var(--tw-mask-to);
+}
+.mask-point-from-\[0\%\] {
+  --tw-mask-point-from: 0%;
+}
+.mask-point-via-\[100\%\] {
+  --tw-mask-point-via: 100%;
 }
 
 
@@ -847,9 +843,20 @@ html {
     position: sticky;
   }
 
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+  .sm\:bottom-40 {
+    bottom: 10rem;
+  }
+
+  .sm\:top-0 {
+    top: 0px;
+  }
+
+  .sm\:top-72 {
+    top: 18rem;
+  }
+
+  .sm\:top-80 {
+    top: 20rem;
   }
 
   .sm\:mb-3 {
@@ -876,6 +883,10 @@ html {
     display: grid;
   }
 
+  .sm\:h-\[100\%\] {
+    height: 100%;
+  }
+
   .sm\:h-fit {
     height: fit-content;
   }
@@ -884,28 +895,24 @@ html {
     height: min-content;
   }
 
-  .sm\:h-screen {
-    height: 100vh;
-  }
-
   .sm\:max-h-\[100\%\] {
     max-height: 100%;
-  }
-
-  .sm\:max-h-screen {
-    max-height: 100vh;
   }
 
   .sm\:w-\[100\%\] {
     width: 100%;
   }
 
+  .sm\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .sm\:w-\[80\%\] {
     width: 80%;
   }
 
-  .sm\:w-auto {
-    width: auto;
+  .sm\:w-\[90\%\] {
+    width: 90%;
   }
 
   .sm\:w-full {
@@ -932,10 +939,6 @@ html {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:place-content-center {
-    place-content: center;
-  }
-
   .sm\:place-content-end {
     place-content: end;
   }
@@ -952,36 +955,16 @@ html {
     row-gap: 0.25rem;
   }
 
-  .sm\:gap-y-3 {
-    row-gap: 0.75rem;
-  }
-
-  .sm\:gap-y-8 {
-    row-gap: 2rem;
-  }
-
-  .sm\:overflow-clip {
-    overflow: clip;
-  }
-
-  .sm\:overflow-scroll {
-    overflow: scroll;
-  }
-
   .sm\:rounded-full {
     border-radius: 9999px;
   }
 
-  .sm\:p-0 {
-    padding: 0px;
+  .sm\:object-cover {
+    object-fit: cover;
   }
 
-  .sm\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .sm\:p-8 {
-    padding: 2rem;
+  .sm\:object-none {
+    object-fit: none;
   }
 
   .sm\:text-2xl {
@@ -1001,16 +984,8 @@ html {
     line-height: 1;
   }
 
-  .sm\:\[clip-path\:xywh\(50_50px_100\%_100\%_round_20\%_20\%\)\] {
-    clip-path: xywh(50 50px 100% 100% round 20% 20%);
-  }
-
-  .sm\:\[clip-path\:xywh\(50_50px_60\%_30\%_round_20\%_20\%\)\] {
-    clip-path: xywh(50 50px 60% 30% round 20% 20%);
-  }
-
-  .sm\:\[clip-path\:xywh\(50_50px_60\%_60\%_round_20\%_20\%\)\] {
-    clip-path: xywh(50 50px 60% 60% round 20% 20%);
+  .sm\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
+    clip-path: xywh(10 10px 100% 100% round 20% 20%);
   }
 
   .hover\:sm\:rounded-full:hover {
@@ -1028,6 +1003,10 @@ html {
     bottom: 10rem;
   }
 
+  .md\:top-0 {
+    top: 0px;
+  }
+
   .md\:top-72 {
     top: 18rem;
   }
@@ -1041,40 +1020,40 @@ html {
     margin-right: auto;
   }
 
-  .md\:h-60 {
-    height: 15rem;
-  }
-
   .md\:h-72 {
     height: 18rem;
+  }
+
+  .md\:h-\[100\%\] {
+    height: 100%;
   }
 
   .md\:h-fit {
     height: fit-content;
   }
 
-  .md\:h-full {
-    height: 100%;
+  .md\:max-h-\[100\%\] {
+    max-height: 100%;
   }
 
-  .md\:h-min {
-    height: min-content;
+  .md\:w-\[100\%\] {
+    width: 100%;
   }
 
-  .md\:h-screen {
-    height: 100vh;
+  .md\:w-\[60\%\] {
+    width: 60%;
   }
 
   .md\:w-\[80\%\] {
     width: 80%;
   }
 
-  .md\:w-full {
-    width: 100%;
+  .md\:w-\[90\%\] {
+    width: 90%;
   }
 
-  .md\:max-w-2xl {
-    max-width: 42rem;
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:max-w-\[100\%\] {
@@ -1085,12 +1064,12 @@ html {
     border-radius: 9999px;
   }
 
-  .md\:p-10 {
-    padding: 2.5rem;
+  .md\:object-cover {
+    object-fit: cover;
   }
 
-  .md\:p-8 {
-    padding: 2rem;
+  .md\:object-none {
+    object-fit: none;
   }
 
   .md\:text-2xl {
@@ -1110,12 +1089,8 @@ html {
     line-height: 1;
   }
 
-  .md\:\[clip-path\:xywh\(50_50px_100\%_100\%_round_20\%_20\%\)\] {
-    clip-path: xywh(50 50px 100% 100% round 20% 20%);
-  }
-
-  .md\:\[clip-path\:xywh\(50_50px_60\%_30\%_round_20\%_20\%\)\] {
-    clip-path: xywh(50 50px 60% 30% round 20% 20%);
+  .md\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
+    clip-path: xywh(10 10px 100% 100% round 20% 20%);
   }
 
   .hover\:md\:rounded-full:hover {
@@ -1125,10 +1100,6 @@ html {
 
 @media (min-width: 1024px) {
 
-  .lg\:fixed {
-    position: fixed;
-  }
-
   .lg\:sticky {
     position: sticky;
   }
@@ -1137,12 +1108,20 @@ html {
     bottom: 0px;
   }
 
-  .lg\:bottom-10 {
-    bottom: 2.5rem;
+  .lg\:bottom-20 {
+    bottom: 5rem;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
   }
 
   .lg\:top-10 {
     top: 2.5rem;
+  }
+
+  .lg\:top-20 {
+    top: 5rem;
   }
 
   .lg\:top-40 {
@@ -1162,20 +1141,12 @@ html {
     margin-top: 0px;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
   .lg\:mt-2 {
     margin-top: 0.5rem;
   }
 
   .lg\:mt-3 {
     margin-top: 0.75rem;
-  }
-
-  .lg\:mt-4 {
-    margin-top: 1rem;
   }
 
   .lg\:flex {
@@ -1186,28 +1157,40 @@ html {
     display: grid;
   }
 
-  .lg\:h-20 {
-    height: 5rem;
-  }
-
   .lg\:h-40 {
     height: 10rem;
+  }
+
+  .lg\:h-\[90\%\] {
+    height: 90%;
   }
 
   .lg\:h-fit {
     height: fit-content;
   }
 
-  .lg\:h-min {
-    height: min-content;
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:h-max {
+    height: max-content;
   }
 
   .lg\:h-screen {
     height: 100vh;
   }
 
+  .lg\:max-h-\[100\%\] {
+    max-height: 100%;
+  }
+
   .lg\:w-80 {
     width: 20rem;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
   }
 
   .lg\:w-\[80\%\] {
@@ -1230,10 +1213,6 @@ html {
     max-width: 100%;
   }
 
-  .lg\:flex-shrink-0 {
-    flex-shrink: 0;
-  }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1244,10 +1223,6 @@ html {
 
   .lg\:grid-cols-\[max-content_1fr\] {
     grid-template-columns: max-content 1fr;
-  }
-
-  .lg\:flex-nowrap {
-    flex-wrap: nowrap;
   }
 
   .lg\:place-content-start {
@@ -1274,24 +1249,16 @@ html {
     row-gap: 2.5rem;
   }
 
-  .lg\:overflow-hidden {
-    overflow: hidden;
-  }
-
-  .lg\:overflow-scroll {
-    overflow: scroll;
+  .lg\:overflow-visible {
+    overflow: visible;
   }
 
   .lg\:rounded-xl {
     border-radius: 0.75rem;
   }
 
-  .lg\:p-2 {
-    padding: 0.5rem;
-  }
-
-  .lg\:p-4 {
-    padding: 1rem;
+  .lg\:object-cover {
+    object-fit: cover;
   }
 
   .lg\:text-2xl {
@@ -1326,32 +1293,60 @@ html {
     bottom: 0px;
   }
 
-  .xl\:bottom-10 {
-    bottom: 2.5rem;
+  .xl\:bottom-20 {
+    bottom: 5rem;
+  }
+
+  .xl\:top-0 {
+    top: 0px;
   }
 
   .xl\:top-10 {
     top: 2.5rem;
   }
 
-  .xl\:top-40 {
-    top: 10rem;
+  .xl\:top-20 {
+    top: 5rem;
   }
 
-  .xl\:h-20 {
-    height: 5rem;
+  .xl\:top-40 {
+    top: 10rem;
   }
 
   .xl\:h-40 {
     height: 10rem;
   }
 
+  .xl\:h-\[90\%\] {
+    height: 90%;
+  }
+
   .xl\:h-fit {
     height: fit-content;
   }
 
+  .xl\:h-full {
+    height: 100%;
+  }
+
+  .xl\:h-max {
+    height: max-content;
+  }
+
+  .xl\:h-screen {
+    height: 100vh;
+  }
+
+  .xl\:max-h-\[100\%\] {
+    max-height: 100%;
+  }
+
   .xl\:w-80 {
     width: 20rem;
+  }
+
+  .xl\:w-\[60\%\] {
+    width: 60%;
   }
 
   .xl\:w-\[80\%\] {
@@ -1362,8 +1357,8 @@ html {
     width: 100%;
   }
 
-  .xl\:max-w-\[100\%\] {
-    max-width: 100%;
+  .xl\:object-cover {
+    object-fit: cover;
   }
 
   .xl\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
