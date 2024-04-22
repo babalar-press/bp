@@ -1,6 +1,6 @@
 ---
         Title: "Agenda"
-        Layout: "agenda"
+        Layout: "list_agenda"
         Type: "en"
         Draft: "false"
 ---

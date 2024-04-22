@@ -1,6 +1,6 @@
 ---
         Title: "Babalar Press"
-        Layout: "index"
+        Layout: "index_kz"
         Type: "home"
 ---
 

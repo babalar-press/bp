@@ -1,5 +1,5 @@
 ---
         Title: "Babalar Press"
-        Layout: "index"
+        Layout: "index_ru"
         Type: "home"
 ---

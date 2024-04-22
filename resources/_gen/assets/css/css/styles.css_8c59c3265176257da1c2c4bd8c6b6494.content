@@ -582,6 +582,12 @@ video {
 .w-full {
   width: 100%;
 }
+.w-min {
+  width: min-content;
+}
+.max-w-full {
+  max-width: 100%;
+}
 .max-w-md {
   max-width: 28rem;
 }
@@ -656,6 +662,9 @@ video {
 .bg-periwinkle-ornament {
   background-image: url('/img/periwinkle-pattern_4.svg');
 }
+.bg-red-ornament {
+  background-image: url('/img/red-pattern_4.svg');
+}
 .from-lemon-yellow {
   --tw-gradient-from: #f1ff78 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(241 255 120 / 0) var(--tw-gradient-to-position);
@@ -673,6 +682,9 @@ video {
 }
 .to-periwinkle {
   --tw-gradient-to: #c0c8db var(--tw-gradient-to-position);
+}
+.to-red {
+  --tw-gradient-to: #b3452f var(--tw-gradient-to-position);
 }
 .bg-cover {
   background-size: cover;
@@ -923,10 +935,6 @@ html {
     line-height: 1;
   }
 
-  .sm\:\[clip-path\:rect\(10px_10px_500px_800px_round_20\%\)\] {
-    clip-path: rect(10px 10px 500px 800px round 20%);
-  }
-
   .sm\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
     clip-path: xywh(10 10px 100% 100% round 20% 20%);
   }
@@ -1012,10 +1020,6 @@ html {
     line-height: 1;
   }
 
-  .md\:\[clip-path\:rect\(10px_10px_500px_800px_round_20\%\)\] {
-    clip-path: rect(10px 10px 500px 800px round 20%);
-  }
-
   .md\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
     clip-path: xywh(10 10px 100% 100% round 20% 20%);
   }
@@ -1092,8 +1096,8 @@ html {
     width: 30%;
   }
 
-  .lg\:w-\[60\%\] {
-    width: 60%;
+  .lg\:w-\[80\%\] {
+    width: 80%;
   }
 
   .lg\:w-fit {
@@ -1173,10 +1177,6 @@ html {
     font-size: 0.8rem;
   }
 
-  .lg\:\[clip-path\:rect\(10px_10px_500px_800px_round_20\%\)\] {
-    clip-path: rect(10px 10px 500px 800px round 20%);
-  }
-
   .lg\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
     clip-path: xywh(10 10px 100% 100% round 20% 20%);
   }
@@ -1224,8 +1224,8 @@ html {
     width: 30%;
   }
 
-  .xl\:w-\[60\%\] {
-    width: 60%;
+  .xl\:w-\[80\%\] {
+    width: 80%;
   }
 
   .xl\:max-w-\[80\%\] {
@@ -1242,10 +1242,6 @@ html {
 
   .xl\:object-cover {
     object-fit: cover;
-  }
-
-  .xl\:\[clip-path\:rect\(10px_10px_500px_800px_round_20\%\)\] {
-    clip-path: rect(10px 10px 500px 800px round 20%);
   }
 
   .xl\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
