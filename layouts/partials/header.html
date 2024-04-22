@@ -1,14 +1,17 @@
 
 
 <div class="lg:grid lg:grid-cols-2 sm:grid sm:grid-cols-2">
-<div class="lg:flex lg:place-content-start lg:gap-8 lg:mt-2 sm:grid-cols-1 sm:gap-10 sm:mt-4">
+<div class="grid-cols-1 gap-10 mt-4
+md:grid-cols-1 md:gap-10 md:mt-4
+lg:flex lg:place-content-start lg:gap-8 lg:mt-2
+xl:flex xl:place-content-start xl:gap-8 xl:mt-2">
   {{ $currentPage := . }}
     {{ $menu := .Site.Menus.main}}
     {{range $index, $element := $menu}}
       {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
       {{ $active = or $active (eq .Name $currentPage.Title) }}
         <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} 
-        font-sans-serif 
+        font-sans-serif
         lg:text-2xl lg:w-max sm:w-max lg:h-fit sm:h-fit sm:text-6xl md:rounded-full sm:rounded-full text-brown 
         hover:shadow-2xl hover:shadow-red bg-white shadow-2xl shadow-white lg:rounded-xl
         hover:bg-red hover:text-periwinkle hover:lg:rounded-xl hover:sm:rounded-full hover:md:rounded-full">

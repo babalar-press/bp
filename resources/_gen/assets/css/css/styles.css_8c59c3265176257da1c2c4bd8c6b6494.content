@@ -526,9 +526,6 @@ video {
 .top-0 {
   top: 0px;
 }
-.top-72 {
-  top: 18rem;
-}
 .z-0 {
   z-index: 0;
 }
@@ -558,11 +555,8 @@ video {
 .mt-10 {
   margin-top: 2.5rem;
 }
-.mt-2 {
-  margin-top: 0.5rem;
-}
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 .flex {
   display: flex;
@@ -609,6 +603,9 @@ video {
 .place-content-end {
   place-content: end;
 }
+.gap-10 {
+  gap: 2.5rem;
+}
 .gap-2 {
   gap: 0.5rem;
 }
@@ -620,9 +617,6 @@ video {
 }
 .overflow-scroll {
   overflow: scroll;
-}
-.overflow-ellipsis {
-  text-overflow: ellipsis;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -683,17 +677,8 @@ video {
 .bg-fixed {
   background-attachment: fixed;
 }
-.object-contain {
-  object-fit: contain;
-}
 .object-cover {
   object-fit: cover;
-}
-.object-fill {
-  object-fit: fill;
-}
-.object-none {
-  object-fit: none;
 }
 .p-2 {
   padding: 0.5rem;
@@ -764,20 +749,6 @@ video {
   --tw-shadow-color: #ffffff;
   --tw-shadow: var(--tw-shadow-colored);
 }
-.mask-linear {
-  mask-image: linear-gradient(var(--tw-mask-direction), var(--tw-mask-stops));
-  --tw-mask-direction: to bottom;
-  --tw-mask-shape: ;
-  --tw-mask-reach: closest-side;
-  --tw-mask-at: center;
-  --tw-mask-from-opacity: 1;
-  --tw-mask-point-from: ;
-  --tw-mask-from: rgba(0,0,0,var(--tw-mask-from-opacity)) var(--tw-mask-point-from);
-  --tw-mask-to-opacity: 0;
-  --tw-mask-point-to: ;
-  --tw-mask-to: rgba(0,0,0,var(--tw-mask-to-opacity)) var(--tw-mask-point-to);
-  --tw-mask-stops: var(--tw-mask-from), var(--tw-mask-to);
-}
 .mask-radial {
   mask-image: radial-gradient(var(--tw-mask-shape) var(--tw-mask-reach) at var(--tw-mask-at), var(--tw-mask-stops));
   --tw-mask-direction: to bottom;
@@ -794,19 +765,6 @@ video {
 }
 .mask-shape-ellipse {
   --tw-mask-shape: ellipse;
-}
-.mask-to-10 {
-  --tw-mask-to-opacity: 0.1;
-}
-.mask-via-0 {
-  --tw-mask-point-via: ;
-  --tw-mask-stops: var(--tw-mask-from), rgba(0,0,0,0) var(--tw-mask-point-via), var(--tw-mask-to);
-}
-.mask-point-from-\[0\%\] {
-  --tw-mask-point-from: 0%;
-}
-.mask-point-via-\[100\%\] {
-  --tw-mask-point-via: 100%;
 }
 
 
@@ -857,10 +815,6 @@ html {
     top: 0px;
   }
 
-  .sm\:top-72 {
-    top: 18rem;
-  }
-
   .sm\:top-80 {
     top: 20rem;
   }
@@ -905,20 +859,8 @@ html {
     max-height: 100%;
   }
 
-  .sm\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .sm\:w-\[60\%\] {
-    width: 60%;
-  }
-
   .sm\:w-\[80\%\] {
     width: 80%;
-  }
-
-  .sm\:w-\[90\%\] {
-    width: 90%;
   }
 
   .sm\:w-full {
@@ -933,10 +875,6 @@ html {
     width: min-content;
   }
 
-  .sm\:max-w-\[100\%\] {
-    max-width: 100%;
-  }
-
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -949,10 +887,6 @@ html {
     place-content: end;
   }
 
-  .sm\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .sm\:gap-6 {
     gap: 1.5rem;
   }
@@ -961,16 +895,16 @@ html {
     row-gap: 0.25rem;
   }
 
+  .sm\:overflow-hidden {
+    overflow: hidden;
+  }
+
   .sm\:rounded-full {
     border-radius: 9999px;
   }
 
   .sm\:object-cover {
     object-fit: cover;
-  }
-
-  .sm\:object-none {
-    object-fit: none;
   }
 
   .sm\:text-2xl {
@@ -1013,10 +947,6 @@ html {
     top: 0px;
   }
 
-  .md\:top-72 {
-    top: 18rem;
-  }
-
   .md\:top-80 {
     top: 20rem;
   }
@@ -1024,6 +954,10 @@ html {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
   }
 
   .md\:h-72 {
@@ -1042,20 +976,8 @@ html {
     max-height: 100%;
   }
 
-  .md\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .md\:w-\[60\%\] {
-    width: 60%;
-  }
-
   .md\:w-\[80\%\] {
     width: 80%;
-  }
-
-  .md\:w-\[90\%\] {
-    width: 90%;
   }
 
   .md\:w-full {
@@ -1066,16 +988,24 @@ html {
     max-width: 100%;
   }
 
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:overflow-hidden {
+    overflow: hidden;
+  }
+
   .md\:rounded-full {
     border-radius: 9999px;
   }
 
   .md\:object-cover {
     object-fit: cover;
-  }
-
-  .md\:object-none {
-    object-fit: none;
   }
 
   .md\:text-2xl {
@@ -1122,10 +1052,6 @@ html {
     top: 0px;
   }
 
-  .lg\:top-10 {
-    top: 2.5rem;
-  }
-
   .lg\:top-20 {
     top: 5rem;
   }
@@ -1151,10 +1077,6 @@ html {
     margin-top: 0.5rem;
   }
 
-  .lg\:mt-3 {
-    margin-top: 0.75rem;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -1163,16 +1085,8 @@ html {
     display: grid;
   }
 
-  .lg\:h-24 {
-    height: 6rem;
-  }
-
   .lg\:h-28 {
     height: 7rem;
-  }
-
-  .lg\:h-40 {
-    height: 10rem;
   }
 
   .lg\:h-\[90\%\] {
@@ -1183,10 +1097,6 @@ html {
     height: fit-content;
   }
 
-  .lg\:h-full {
-    height: 100%;
-  }
-
   .lg\:h-max {
     height: max-content;
   }
@@ -1195,20 +1105,12 @@ html {
     height: 100vh;
   }
 
-  .lg\:max-h-\[100\%\] {
-    max-height: 100%;
-  }
-
   .lg\:w-80 {
     width: 20rem;
   }
 
   .lg\:w-\[60\%\] {
     width: 60%;
-  }
-
-  .lg\:w-\[80\%\] {
-    width: 80%;
   }
 
   .lg\:w-fit {
@@ -1263,8 +1165,12 @@ html {
     row-gap: 2.5rem;
   }
 
-  .lg\:overflow-visible {
-    overflow: visible;
+  .lg\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .lg\:overflow-ellipsis {
+    text-overflow: ellipsis;
   }
 
   .lg\:rounded-xl {
@@ -1315,10 +1221,6 @@ html {
     top: 0px;
   }
 
-  .xl\:top-10 {
-    top: 2.5rem;
-  }
-
   .xl\:top-20 {
     top: 5rem;
   }
@@ -1327,16 +1229,16 @@ html {
     top: 10rem;
   }
 
-  .xl\:h-24 {
-    height: 6rem;
+  .xl\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .xl\:flex {
+    display: flex;
   }
 
   .xl\:h-28 {
     height: 7rem;
-  }
-
-  .xl\:h-40 {
-    height: 10rem;
   }
 
   .xl\:h-\[90\%\] {
@@ -1347,20 +1249,8 @@ html {
     height: fit-content;
   }
 
-  .xl\:h-full {
-    height: 100%;
-  }
-
   .xl\:h-max {
     height: max-content;
-  }
-
-  .xl\:h-screen {
-    height: 100vh;
-  }
-
-  .xl\:max-h-\[100\%\] {
-    max-height: 100%;
   }
 
   .xl\:w-80 {
@@ -1371,12 +1261,24 @@ html {
     width: 60%;
   }
 
-  .xl\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .xl\:w-full {
     width: 100%;
+  }
+
+  .xl\:place-content-start {
+    place-content: start;
+  }
+
+  .xl\:gap-8 {
+    gap: 2rem;
+  }
+
+  .xl\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .xl\:overflow-ellipsis {
+    text-overflow: ellipsis;
   }
 
   .xl\:object-cover {
