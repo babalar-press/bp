@@ -1,55 +1,22 @@
 {{ define "main" }}
 
 
-<div class="relative h-fit">
 
+  <img class="w-auto mx-auto z-0 object-cover absolute top-0 left-0"
+    src="/img/periwinkle-pattern_4.svg" />
 
-  <div class="z-10">
-    <img src="/img/Horses_in_Kazakhstan.jpg" class="relative sm:object-cover md:object-cover lg:object-cover xl:object-cover mx-auto
-    sm:h-[100%] md:h-[100%] lg:h-[90%] xl:h-[90%]
-    sm:w-full md:w-full lg:w-[80%] xl:w-[80%]
-    left-0 right-0 sm:top-0 md:top-0 lg:top-20 xl:top-20
-    bottom-0 md:bottom-0 lg:bottom-20 xl:bottom-20  
-    sm:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    md:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    lg:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    xl:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    mask-shape-ellipse mask-radial"/>
-  
-  </div>
-<!--<div class="z-30">
-  <img src="/img/periwinkle-pattern_4-landscape.svg" class="absolute object-cover mx-auto
-    sm:max-w-full md:max-w-full lg:max-w-[100%] xl:max-w-[100%]
-    sm:max-h-fit md:max-h-fit lg:max-h-[100%] xl:max-h-[100%]
-    top-0 bottom-0 left-0 right-0"/></div>-->
-
-<!--<div class="z-0">
-  <img src="/img/white_wool_3.jpeg" class="absolute object-cover mx-auto
-  sm:h-[100%] md:h-[100%] lg:max-h-[90%] xl:max-h-[90%]
-  sm:w-full md:w-full lg:max-w-[80%] xl:max-w-[80%]
-  left-0 right-0 top-0 bottom-0 
-  sm:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  md:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  lg:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  xl:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  mask-shape-ellipse mask-radial"/></div>-->
-
-<div class="z-20">
-  <div class="absolute mx-auto
-  sm:h-fit md:h-fit lg:h-full xl:h-full
-  sm:top-0 md:top-0 lg:top-20 xl:top-20 left-0 right-0 bottom-0
+  <div class="mx-auto relative
+  sm:h-fit md:h-fit lg:max-h-[90%] xl:max-h-[90%]
+  mb-20
+  sm:top-0 md:top-0 lg:top-0 xl:top-0 left-0 right-0 bottom-0
   sm:w-[70%] md:w-[70%] lg:w-[30%] xl:w-[30%]">
   {{ readFile "assets/images/bplogo_extended_red.svg" | safeHTML }}
-  </div></div>
-
-
-</div>
+  </div>
 
 
 
-<div class="mt-10 h-fit px-12 bg-periwinkle shadow-2xl shadow-periwinkle p-4">
-<div class="grid grid-cols-[max-content_1fr] gap-x-8">
-    <div class="p-0 font-sans-serif text-2xl text-brown w-fit">Contributors</div>
+
+<div class="z-0 relative px-12 mx-auto">
     <div class="p-0 font-sans-serif text-4xl w-fit leading-[3rem] text-brown">
       BABALAR PRESS is a Qazaq experimental research, writing and publishing initiative for relearning,
       reclaiming and reimagining our ancestral knowledge(s).
@@ -57,31 +24,30 @@
       caring spaces for us to engage with, reinterpret & share the stories, knowledges
       and practices of our collective and personal babalar (qazaq for “ancestors”).</div>
     </div>
+
+
+<div class="z-10">
+  <img src="/img/Horses_in_Kazakhstan.jpg" class="relative mx-auto
+  sm:h-[100%] md:h-[100%] lg:h-[60%] xl:h-[60%]
+  sm:w-full md:w-full lg:w-[60%] xl:w-[60%]
+  left-0 right-0 top-0
+  bottom-0
+  mask-shape-ellipse mask-radial"/>
+
 </div>
 
-<div class="mt-60 px-12 h-fit  bg-periwinkle shadow-2xl shadow-periwinkle p-4">
-  <div class="grid grid-cols-[max-content_1fr] gap-x-8 gap-y-10">
+<div class="h-fit w-auto z-0 relative mx-auto rounded-xl px-12 p-4">
+  <div class="flex">
 
-  <div>
-  <article class="text-wrap break-all"> 
-    <p class="p-0 font-sans-serif text-2xl w-fit text-brown">
+  <div class="p-0 font-sans-serif text-2xl w-fit text-brown">
       Pattern: Ayym Zhaishylyk
-    </p>
-    <p class="p-0 font-sans-serif text-2xl w-fit text-brown">
       Design: Haider Mukhit
-    </p>
-    <p class="p-0 font-sans-serif text-2xl w-fit text-brown">
       © copyright Babalar Press
-    </p>
-    </article>
   </div>
-  
 
-  <div>
-    <p class="p-0 font-sans-serif text-4xl w-fit leading-[3rem] text-brown">
+  <div class="p-0 font-sans-serif text-4xl w-fit leading-[3rem] text-brown">
         For any relevant suggestions, questions or information you can write to
         us via email at info@babalarpress or through our Instagram profile @babalarpress
-      </p>
     </div>
   
   </div>
@@ -89,9 +55,6 @@
 </div>
 
 
-
-
-  
 
 
 

@@ -25,18 +25,14 @@
   
   </head>
   
-  <body class="bg-gradient-to-b from-red to-periwinkle h-fit bg-fixed">
+  <body class="relative bg-gradient-to-b from-periwinkle from-10% to-brown h-fit mx-auto
+  overflow-scroll">
 
-    <!--bg-->
-    
-        {{ if eq .Type "home" }}
-        <div class="bg-gradient-to-b from-periwinkle from-10% to-red bg-cover max-w-full h-fit
-        overflow-scroll"> 
-        <div class="bg-periwinkle-ornament bg-cover max-w-[100%] h-fit
-        overflow-scroll"> 
-        {{end}}
+    <!--{{ if eq .Type "home" }}
+      <img class="z-0 opacity-70 rounded-xl object-cover absolute"
+    src="/img/white_wool_3.jpeg" />
+    {{ end }}-->
 
-    
     <!--header-->
     <div class="bg-gradient-to-b from-periwinkle sm:sticky lg:sticky top-0 h-72 md:h-72 lg:h-20 xl:h-20 px-12 z-10">
       {{- partial "header.html" . -}}
@@ -49,12 +45,11 @@
     </div>
 
     <!--footer-->
-    <div class="sticky bottom-0 mx-auto bg-gradient-to-t from-lemon-yellow to-none z-0">
+    <div class="sticky bottom-0 bg-gradient-to-t from-lemon-yellow z-10">
       {{- partial "footer.html" . -}}
     </div>
 
-  </div>
-    
+ 
 
   </body>
 </html>
