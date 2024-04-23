@@ -585,6 +585,9 @@ video {
 .w-full {
   width: 100%;
 }
+.max-w-\[100\%\] {
+  max-width: 100%;
+}
 .max-w-full {
   max-width: 100%;
 }
@@ -670,9 +673,6 @@ video {
 }
 .bg-periwinkle-ornament {
   background-image: url('../img/periwinkle-pattern_4.svg');
-}
-.bg-white-wool {
-  background-image: url('../img/white_wool_3.jpeg');
 }
 .from-lemon-yellow {
   --tw-gradient-from: #f1ff78 var(--tw-gradient-from-position);
