@@ -25,16 +25,16 @@
   
   </head>
   
-  <body class="relative bg-gradient-to-b from-periwinkle from-20% via-brown via-50% to-periwinkle h-fit mx-auto
+  <body class="relative bg-gradient-to-b from-brown/50 sm:from-10% md:from-10% lg:from-20% to-periwinkle h-fit mx-auto
   overflow-scroll">
 
-   <!--{{ if eq .Type "home" }}
-      <img class="z-0 opacity-70 rounded-xl object-cover absolute"
+  {{ if eq .Type "home" }}
+      <img class="z-0 opacity-70 absolute object-cover w-screen max-h-[100%] mask-[url('/img/mask-image-blur-edges.png')] mask-size-cover"
     src="/img/white_wool_3.jpeg" />
-    {{ end }}-->
+    {{ end }}
 
     <!--header-->
-    <div class="bg-gradient-to-b from-brown sm:sticky lg:sticky top-0 h-72 md:h-72 lg:h-20 xl:h-20 px-12 z-10">
+    <div class="bg-gradient-to-b from-periwinkle sm:sticky lg:sticky top-0 h-80 md:h-80 lg:h-20 xl:h-20 px-12 z-10">
       {{- partial "header.html" . -}}
       </div>
     

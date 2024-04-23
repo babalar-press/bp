@@ -12,7 +12,7 @@ xl:flex xl:place-content-start xl:gap-8 xl:mt-2">
       {{ $active = or $active (eq .Name $currentPage.Title) }}
         <div class="menu-item-{{ .Name }} {{ if $active }}active{{ end }} 
         font-sans-serif
-        lg:text-2xl lg:w-max sm:w-max lg:h-fit sm:h-fit sm:text-6xl md:rounded-full sm:rounded-full text-periwinkle 
+        lg:text-2xl lg:w-max sm:w-max lg:h-fit sm:h-fit sm:text-6xl md:rounded-full sm:rounded-full text-brown
         hover:shadow-2xl hover:shadow-red lg:rounded-xl
         hover:bg-red hover:text-periwinkle hover:lg:rounded-xl hover:sm:rounded-full hover:md:rounded-full">
           <a href="{{ .URL | relLangURL }}">{{ .Pre }}{{i18n .Identifier | default .Name }}</a>
@@ -30,7 +30,7 @@ xl:flex xl:place-content-start xl:gap-8 xl:mt-2">
 
           <a class="language-switch lg:w-fit sm:w-min lg:h-fit sm:h-min
           lg:rounded-xl hover:bg-red hover:shadow-2xl hover:shadow-red hover:text-periwinkle hover:lg:rounded-xl 
-          hover:sm:rounded-full hover:md:rounded-full text-periwinkle font-sans-serif lg:text-2xl md:text-6xl sm:text-6xl 
+          hover:sm:rounded-full hover:md:rounded-full text-brown font-sans-serif lg:text-2xl md:text-6xl sm:text-6xl 
           md:rounded-full sm:rounded-full" href="{{ default $no_translation.Permalink $translation.Permalink }}">
             {{ .Language.LanguageName }}
           </a>
