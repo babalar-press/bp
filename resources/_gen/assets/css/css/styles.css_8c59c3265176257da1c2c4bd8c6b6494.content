@@ -968,6 +968,9 @@ video {
 .leading-\[3rem\] {
   line-height: 3rem;
 }
+.leading-tight {
+  line-height: 1.25;
+}
 .text-brown {
   --tw-text-opacity: 1;
   color: rgb(73 53 47 / var(--tw-text-opacity));
