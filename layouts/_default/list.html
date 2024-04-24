@@ -1,16 +1,18 @@
 {{ define "main" }}
 
-<div class="px-12 sm:h-fit md:h-fit lg:h-screen mt-10 lg:mt-0">
-    <div class="flex mx-auto sm:mb-3 lg:mb-8 sm:mt-4 lg:mt-2 font-sans-serif text-4xl lg:text-lg text-brown rounded-full bg-periwinkle shadow-2xl shadow-periwinkle  h-fit">
-        <div class="mx-auto">current</div></div>
+<div class="border-b-2 border-brown px-12 sm:h-fit md:h-fit lg:h-fit sm:mt-10 md:mt-0 lg:mt-10">
+    <div class="flex mx-auto sm:mb-3 lg:mb-0 sm:mt-4 lg:mt-0 font-sans-serif text-4xl lg:text-lg text-brown h-fit">
+        <div class="mx-auto">current</div></div></div>
 
-    <div class="grid lg:grid-cols-4 sm:grid-cols-1 rounded-xl mb-8">
+<div class="px-12 sm:h-fit md:h-fit lg:h-fit sm:mt-10 md:mt-0 lg:mt-0">        
+
+    <div class="grid lg:grid-cols-4 sm:grid-cols-1 gap-x-4 rounded-xl">
 
             <!--volume 1-->
             <div class="grid grid-cols-1 gap-2 p-4 mx-auto">
             <div class="h-fit md:max-w-[100%] lg:max-w-[100%]">
                 <a href="../publications/volume1/">
-                <img src="/img/1-Kiosk_opt.png"></a>
+                <img src="/img/1-Kiosk_opt.png" class="hover:bg-periwinkle hover:shadow-2xl hover:shadow-periwinkle hover:rounded-xl"></a>
             </div>
             <div class="font-sans-serif font-semibold lg:text-base md:text-3xl text-brown">Volume 1</div>
             <div class="font-sans-serif font-light lg:text-sm md:text-2xl text-brown">156 pages</div>
@@ -18,12 +20,49 @@
 
             <!--volume 2-->
 
-    </div>
+            <div class="grid grid-cols-1 gap-2 p-4 mx-auto">
+                <div class="h-fit md:max-w-[100%] lg:max-w-[100%]">
+                    <a href="../publications/volume1/">
+                    <img src="/img/1-Kiosk_opt.png"></a>
+                </div>
+                <div class="font-sans-serif font-semibold lg:text-base md:text-3xl text-brown">Volume 2</div>
+                <div class="font-sans-serif font-light lg:text-sm md:text-2xl text-brown">156 pages</div>
+                </div>
+
+    </div></div>
+
+    <div class="border-b-2 border-brown px-12 sm:h-fit md:h-fit lg:max-h-[100%] sm:mt-10 md:mt-0 lg:mt-0">
+        <div class="flex mx-auto sm:mb-3 lg:mb-0 sm:mt-4 lg:mt-0 font-sans-serif text-4xl lg:text-lg text-brown h-fit">
+            <div class="mx-auto">coming soon</div></div></div>
 
 
-    <div class="flex mx-auto mb-4 font-sans-serif text-4xl lg:text-lg text-white rounded-full bg-brown shadow-2xl shadow-brown h-fit">
-        <div class="mx-auto">coming soon</div></div>
-</div>
+            <div class="px-12 sm:h-fit md:h-fit lg:h-fit sm:mt-10 md:mt-0 lg:mt-0">        
+
+                <div class="grid lg:grid-cols-4 sm:grid-cols-1 gap-x-4 rounded-xl">
+            
+                        <!--volume 1-->
+                        <div class="grid grid-cols-1 gap-2 p-4 mx-auto">
+                        <div class="h-fit md:max-w-[100%] lg:max-w-[100%]">
+                            <a href="../publications/volume1/">
+                            <img src="/img/1-Kiosk_opt.png" class="hover:bg-periwinkle hover:shadow-2xl hover:shadow-periwinkle hover:rounded-xl"></a>
+                        </div>
+                        <div class="font-sans-serif font-semibold lg:text-base md:text-3xl text-brown">Volume 1</div>
+                        <div class="font-sans-serif font-light lg:text-sm md:text-2xl text-brown">156 pages</div>
+                        </div>
+            
+                        <!--volume 2-->
+            
+                        <div class="grid grid-cols-1 gap-2 p-4 mx-auto">
+                            <div class="h-fit md:max-w-[100%] lg:max-w-[100%]">
+                                <a href="../publications/volume1/">
+                                <img src="/img/1-Kiosk_opt.png"></a>
+                            </div>
+                            <div class="font-sans-serif font-semibold lg:text-base md:text-3xl text-brown">Volume 2</div>
+                            <div class="font-sans-serif font-light lg:text-sm md:text-2xl text-brown">156 pages</div>
+                            </div>
+            
+                </div></div>
+
 
 {{ end }}
 
