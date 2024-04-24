@@ -29,12 +29,12 @@
   overflow-scroll">
 
   {{ if eq .Type "home" }}
-      <div><img class="z-0 opacity-70 absolute w-screen max-h-[100%] mask-[url('/img/mask-image-blur-edges.png')] mask-size-cover"
+      <div><img class="z-0 opacity-70 absolute w-screen max-h-[100%] mask-[url('../img/mask-image-blur-edges.png')] mask-size-cover"
     src="/img/white_wool_3.jpeg" /></div>
     {{ end }}
 
     <!--header-->
-    <div class="bg-gradient-to-b from-periwinkle sm:sticky lg:sticky top-0 h-80 md:h-80 lg:h-20 xl:h-20 px-12 z-10">
+    <div class="border-t-2 border-brown bg-gradient-to-b from-periwinkle sm:sticky lg:sticky top-0 h-80 md:h-80 lg:h-20 xl:h-20 px-12 z-20">
       {{- partial "header.html" . -}}
       </div>
     

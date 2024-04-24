@@ -1,10 +1,10 @@
 
 
 <div class="lg:grid lg:grid-cols-2 sm:grid sm:grid-cols-2">
-<div class="grid-cols-1 gap-10 mt-4
+<div class="grid-cols-1 gap-10 mt-4 
 md:grid-cols-1 md:gap-10 md:mt-4
-lg:flex lg:place-content-start lg:gap-8 lg:mt-2
-xl:flex xl:place-content-start xl:gap-8 xl:mt-2">
+lg:flex lg:place-content-start lg:gap-8 lg:mt-4
+xl:flex xl:place-content-start xl:gap-8 xl:mt-4">
   {{ $currentPage := . }}
     {{ $menu := .Site.Menus.main}}
     {{range $index, $element := $menu}}
@@ -21,7 +21,7 @@ xl:flex xl:place-content-start xl:gap-8 xl:mt-2">
     {{end}}
   </div>
 
-  <div class="lg:flex lg:place-content-end lg:gap-6 lg:mt-2 sm:flex sm:place-content-end sm:gap-6 sm:mt-4">
+  <div class="lg:flex lg:place-content-end lg:gap-6 lg:mt-4 sm:flex sm:place-content-end sm:gap-6 sm:mt-4">
 
     {{ range $.Site.Home.AllTranslations }}
       {{ if ne $.Site.Language.Lang .Language.Lang }}
