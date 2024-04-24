@@ -16,6 +16,9 @@
     {{ end }}
     <link href="{{ $styles.Permalink }}" rel="stylesheet" />
     
+    <link href="/path/to/src/pagedone.css"/>
+
+    
     <!--Fonts!-->
     
     <!--Roboto Condensed-->
@@ -27,6 +30,7 @@
   
   <body class="relative bg-gradient-to-b from-brown/50 sm:from-10% md:from-10% lg:from-20% to-periwinkle h-fit mx-auto
   overflow-scroll">
+  
 
   {{ if eq .Type "home" }}
       <div><img class="z-0 opacity-70 absolute w-screen max-h-[100%] mask-[url('../img/mask-image-blur-edges.png')] mask-size-cover"
@@ -50,6 +54,7 @@
     </div>
 
  
+    <script src="/path/to/src/pagedone.js"></script>
 
   </body>
 </html>

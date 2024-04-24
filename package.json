@@ -17,6 +17,7 @@
 	"version": "0.1.0",
 	"dependencies": {
 		"@designbycode/tailwindcss-text-stroke": "^1.2.1",
-		"@pyncz/tailwind-mask-image": "^2.0.0"
+		"@pyncz/tailwind-mask-image": "^2.0.0",
+		"pagedone": "^1.1.2"
 	}
 }
