@@ -1,65 +1,100 @@
 {{ define "main" }}
 
+<img class="sm:w-screen md:w-screen lg:w-screen mx-auto z-0 object-cover absolute
+sm:top-40 lg:top-0 left-0 sm:max-h-[100%] md:max-h-[100%] lg:max-h-[100%]"
+    src="../img/periwinkle-pattern_4.svg" />
 
-<div class="relative h-fit">
-
-
-  <div class="z-10">
-    <img src="/img/Horses_in_Kazakhstan.jpg" class="relative sm:object-cover md:object-cover lg:object-cover xl:object-cover mx-auto
-    sm:h-[100%] md:h-[100%] lg:h-[90%] xl:h-[90%]
-    sm:w-full md:w-full lg:w-[80%] xl:w-[80%]
-    left-0 right-0 sm:top-0 md:top-0 lg:top-20 xl:top-20
-    bottom-0 md:bottom-0 lg:bottom-20 xl:bottom-20  
-    sm:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    md:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    lg:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    xl:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-    mask-shape-ellipse mask-radial"/>
   
-  </div>
-<!--<div class="z-30">
-  <img src="/img/periwinkle-pattern_4-landscape.svg" class="absolute object-cover mx-auto
-    sm:max-w-full md:max-w-full lg:max-w-[100%] xl:max-w-[100%]
-    sm:max-h-fit md:max-h-fit lg:max-h-[100%] xl:max-h-[100%]
-    top-0 bottom-0 left-0 right-0"/></div>-->
+  <!--  <img src="/img/Horses_in_Kazakhstan.jpg" class="absolute z-0 mx-auto
+      w-auto max-h-[100%]
+      left-0 right-0 sm:top-48 md:top-48 lg:top-0 xl:top-0 
+      bottom-0
+      mask-shape-ellipse mask-radial"/>-->
+    
+ 
 
-<div class="z-0">
-  <img src="/img/white_wool_3.jpeg" class="absolute object-cover mx-auto
-  sm:h-[100%] md:h-[100%] lg:max-h-[90%] xl:max-h-[90%]
-  sm:w-full md:w-full lg:max-w-[80%] xl:max-w-[80%]
-  left-0 right-0 top-0 bottom-0 
-  sm:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  md:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  lg:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  xl:[clip-path:xywh(10_10px_100%_100%_round_20%_20%)];
-  mask-shape-ellipse mask-radial"/></div>
+  <div class="mx-auto relative z-10
+  sm:h-auto md:h-auto lg:max-h-[90%] xl:max-h-[90%]
 
-<div class="z-20">
-  <div class="absolute mx-auto
-  sm:h-fit md:h-fit lg:h-full xl:h-full
-  sm:top-0 md:top-0 lg:top-20 xl:top-20 left-0 right-0 bottom-0
-  sm:w-[70%] md:w-[70%] lg:w-[30%] xl:w-[30%]">
+  sm:top-0 md:top-0 lg:top-0 xl:top-0 left-0 right-0 bottom-0
+  sm:w-[60%] md:w-[60%] lg:w-[50%] xl:w-[50%]">
   {{ readFile "assets/images/bplogo_extended_red.svg" | safeHTML }}
-  </div></div>
-
-
-</div>
+  </div>
 
 
 
 
-    <div class="grid grid-cols-[max-content_1fr] gap-8 h-fit">
-    <div class="p-0 font-sans-serif text-2xl">Aida Aida</div>
-    <div class="p-0 font-sans-serif text-5xl w-full leading-[3.5rem]">
-      BABALAR PRESS – бұл бабаларымыздан қалған білімді зерттеп, түсіну және (қайта) қарауға
-      бағытталған қазақ эксперименттік зерттеу, жазу және басылым бастамасы. 
-    Зин, воркшоп және зерттеу гранттары арқылы, BABALAR PRESS бейресми және қамқор кеңістік кұрады. 
-    Бұл кеңістікте біз бабаларымыздан қалған ілімді танып, оған жаңа көзқараспен қарап, бәрімізге ортақ және
-    жеке әңгіме, білім және тәжірибелерімізді еркін бөлісе аламыз.</div>
+<div class="sm:mt-32 md:mt-32 relative z-0 px-12 mx-auto border-b-2 border-brown">
+  <div class="grid grid-cols-[max-content_1fr] gap-x-10 mb-20">
+    <div class="flex-col leading-tight max-w-xs">
+      
+      <div class="p-0 font-sans-serif text-2xl w-fit text-brown">Vol.1 Авторлары:</div>
+      <div class="p-0 font-sans-serif text-2xl w-fit text-brown">Қаңтар Самал</div>
+      <div class="p-0 font-sans-serif text-2xl w-fit text-brown">Äygerim Talğatqızı Tilewbay</div>
+      <div class="p-0 font-sans-serif text-2xl w-fit text-brown">Ańsağan Serikqızı</div>
+    </div>
+    <div class="flex-col max-w-full">
+    
+    <div class="ml-0 font-sans-serif text-4xl leading-[2.8rem] text-brown">
+      <span class="bg-white shadow-lg shadow-white rounded-full">
+        BABALAR PRESS – бұл бабаларымыздан қалған </span>
+        <span class="lg:ml-40">білімді зерттеп, түсіну және (қайта) қарауға бағытталған 
+          қазақ эксперименттік зерттеу, жазу және басылым бастамасы. </span>
+        
+          <span class="lg:ml-80">Зин, воркшоп және зерттеу гранттары арқылы, BABALAR PRESS
+            бейресми және қамқор кеңістік кұрады. Бұл кеңістікте біз бабаларымыздан
+            қалған ілімді танып, 
+          </span> оған жаңа көзқараспен қарап, бәрімізге ортақ және жеке әңгіме,
+          білім және тәжірибелерімізді еркін бөлісе аламыз.</div></span>
+    </div></div>
+  </div>
+
+<div class="mt-20 z-0 relative px-12">
+
+  <div class="grid grid-cols-[max-content_1fr] gap-x-10 mb-20">
+
+    <div class="grid grid-cols-1 leading-tight gap-y-4  max-w-[18rem]">
+        
+        <div class="p-0 font-sans-serif text-2xl  text-brown">
+        сурет, дизайн элементтері: Айым Жайшылық, Айша Жандосова, Аида Исаханқызы</div>
+        
+        <div class="p-0 font-sans-serif text-2xl  text-brown">веб дизайн </br> Хайдар Мұхит</div>
+
+        <div class="p-0 font-sans-serif text-2xl  text-brown">all rights reserved by </br>
+        Babalar Press</div>
+
     </div>
 
+    <div class="grid grid-cols-1 gap-y-4 max-w-full ">
 
-  
+    <div class="p-0 font-sans-serif text-4xl leading-[2.8rem] text-brown">
+      Кез келген тиісті ұсыныстар, сұрақтар немесе ақпарат үшін жазуыңызға болады
+        бізге info@babalarpress электрондық поштасы арқылы немесе Instagram профиліне @babalarpress хабарласыңыз</div>
+    
+        
+        <div class="p-0 font-sans-serif text-4xl leading-[2.8rem] text-brown">
+          Ақпараттарымызға жазылсаңыз:</div>
+
+          <div class="grid md:grid-cols-1 gap-y-3 lg:grid-cols-3 gap-x-6 max-w-full max-h-[20%]">
+
+          <div class="max-w-sm">
+        <textarea class="resize-none w-full h-[2rem] font-sans-serif text-brown caret">есім</textarea>
+            </div>
+
+            <div class="max-w-lg">
+              <textarea class="resize-none w-full h-[2rem] font-sans-serif  text-brown caret ">имэйл</textarea>
+                  </div>
+            
+            <div class="max-w-md">
+              <button type="button" 
+              class="lg:ml-2 lg:mt-0 md:mt-2 font-sans-serif text-semibold text-lg rounded-full h-[2rem] bg-red shadow-red shadow-2xl text-periwinkle ">
+              жазылу</button></div>
+
+        </div></div>
+      
+      </div>
+    
+      </div>
 
 
 

@@ -1,7 +1,6 @@
 ---
         Title: "Оқиғалар"
-        Layout: "agenda"
-        Type: "kz"
+        Layout: "list_agenda_kz"
         Draft: "false"
 ---
 
