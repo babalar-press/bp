@@ -1097,10 +1097,6 @@ html {
     top: 10rem;
   }
 
-  .sm\:order-2 {
-    order: 2;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1254,14 +1250,6 @@ html {
     top: 0px;
   }
 
-  .md\:order-1 {
-    order: 1;
-  }
-
-  .md\:order-2 {
-    order: 2;
-  }
-
   .md\:order-last {
     order: 9999;
   }
@@ -1404,14 +1392,6 @@ html {
 
   .lg\:top-20 {
     top: 5rem;
-  }
-
-  .lg\:order-1 {
-    order: 1;
-  }
-
-  .lg\:order-2 {
-    order: 2;
   }
 
   .lg\:order-first {
