@@ -714,6 +714,9 @@ video {
 .gap-x-8 {
   column-gap: 2rem;
 }
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
 .gap-y-24 {
   row-gap: 6rem;
 }
@@ -723,13 +726,13 @@ video {
 .gap-y-4 {
   row-gap: 1rem;
 }
+.gap-y-5 {
+  row-gap: 1.25rem;
+}
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-.overflow-visible {
-  overflow: visible;
 }
 .overflow-scroll {
   overflow: scroll;
@@ -908,6 +911,9 @@ video {
 .text-sm {
   font-size: 0.8rem;
 }
+.text-xl {
+  font-size: 1.25rem;
+}
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1056,21 +1062,6 @@ video {
 .mask-no-repeat {
   mask-repeat: no-repeat;
 }
-.mask-size-\[10rem\] {
-  mask-size: 10rem;
-}
-.mask-size-\[11\.8rem\] {
-  mask-size: 11.8rem;
-}
-.mask-size-\[12rem\] {
-  mask-size: 12rem;
-}
-.mask-size-\[13rem\] {
-  mask-size: 13rem;
-}
-.mask-size-\[15rem\] {
-  mask-size: 15rem;
-}
 .mask-size-cover {
   mask-size: cover;
 }
@@ -1171,6 +1162,10 @@ html {
 
   .sm\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .sm\:mt-2 {
+    margin-top: 0.5rem;
   }
 
   .sm\:mt-20 {
@@ -1284,6 +1279,14 @@ html {
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .sm\:mask-size-\[20rem\] {
+    mask-size: 20rem;
+  }
+
+  .sm\:mask-size-\[30rem\] {
+    mask-size: 30rem;
   }
 
   .sm\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
@@ -1656,6 +1659,10 @@ html {
 
   .lg\:leading-tight {
     line-height: 1.25;
+  }
+
+  .lg\:mask-size-\[11\.8rem\] {
+    mask-size: 11.8rem;
   }
 
   .lg\:\[clip-path\:xywh\(10_10px_100\%_100\%_round_20\%_20\%\)\] {
