@@ -1,6 +1,6 @@
 ---
         Title: "Event"
         Layout: "single_event"
-        Type: "en"
+        Type: "agenda"
         Draft: "false"
 ---

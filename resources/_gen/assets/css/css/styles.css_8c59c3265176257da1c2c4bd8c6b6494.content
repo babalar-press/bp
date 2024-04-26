@@ -469,39 +469,6 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.container {
-  width: 100%;
-}
-@media (min-width: 640px) {
-
-  .container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-
-  .container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-
-  .container {
-    max-width: 1536px;
-  }
-}
 .fixed {
   position: fixed;
 }
@@ -544,10 +511,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 .mb-10 {
   margin-bottom: 2.5rem;
@@ -678,9 +641,6 @@ video {
 .flex-col {
   flex-direction: column;
 }
-.place-content-center {
-  place-content: center;
-}
 .place-content-end {
   place-content: end;
 }
@@ -713,9 +673,6 @@ video {
 }
 .gap-x-8 {
   column-gap: 2rem;
-}
-.gap-y-10 {
-  row-gap: 2.5rem;
 }
 .gap-y-24 {
   row-gap: 6rem;
@@ -754,9 +711,6 @@ video {
 }
 .border {
   border-width: 1px;
-}
-.border-2 {
-  border-width: 2px;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -845,14 +799,6 @@ video {
 }
 .p-4 {
   padding: 1rem;
-}
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 .px-12 {
   padding-left: 3rem;
@@ -1151,6 +1097,10 @@ html {
     top: 10rem;
   }
 
+  .sm\:order-2 {
+    order: 2;
+  }
+
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1281,10 +1231,6 @@ html {
     line-height: 1;
   }
 
-  .sm\:mask-size-\[20rem\] {
-    mask-size: 20rem;
-  }
-
   .sm\:mask-size-\[30rem\] {
     mask-size: 30rem;
   }
@@ -1306,6 +1252,18 @@ html {
 
   .md\:top-0 {
     top: 0px;
+  }
+
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:order-last {
+    order: 9999;
   }
 
   .md\:mt-0 {
@@ -1446,6 +1404,18 @@ html {
 
   .lg\:top-20 {
     top: 5rem;
+  }
+
+  .lg\:order-1 {
+    order: 1;
+  }
+
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:order-first {
+    order: -9999;
   }
 
   .lg\:mb-0 {
@@ -1655,10 +1625,6 @@ html {
 
   .lg\:leading-\[1\.5rem\] {
     line-height: 1.5rem;
-  }
-
-  .lg\:leading-\[1\.9rem\] {
-    line-height: 1.9rem;
   }
 
   .lg\:leading-tight {

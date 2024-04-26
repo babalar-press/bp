@@ -1,7 +1,7 @@
 ---
         Title: "Біз жайлы"
-        Layout: "about"
+        Layout: "about_kz"
         Draft: "false"
-        Type: "kz"
+        Type: "about"
 ---
 

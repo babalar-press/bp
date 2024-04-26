@@ -9,53 +9,84 @@
     <div class="flex mx-auto sm:mb-3 lg:mb-0 sm:mt-4 lg:mt-0 font-sans-serif text-4xl lg:text-lg text-brown h-fit">
         <span class="mx-auto bg-lemon-yellow shadow-2xl shadow-lemon-yellow rounded-full">current</span></div></div>
 
-<div class="relative z-10 px-12  mt-10 mb-24">        
 
+
+
+<div class="relative z-10 px-12  mt-10 mb-24">   
+    
     <div class="grid lg:grid-cols-4 sm:grid-cols-1 gap-x-2 gap-y-24 lg:gap-y-5">
 
-            <!--volume 1-->
-
+        {{ range .Pages }}
+       
+          <a href="{{ .RelPermalink }}">
             
             <div class="mx-auto lg:max-h-sm lg:max-w-[15rem]">
-
-                <a href="../publications/volume1/">
+    
+                <a href="{{ .RelPermalink }}">
                 <img src="/img/1-Kiosk_opt.png" 
-                class="hover:bg-red hover:shadow-2xl hover:shadow-red hover:rounded-xl"></a>
-            </div>
+                class="hover:bg-red hover:shadow-2xl hover:shadow-red hover:rounded-xl">
+                </div>
+          </a>
+    
+      {{ end }}
+    
+    
+    
+    
+    
+    
+    </div>
+
+   <!-- <div class="grid lg:grid-cols-4 sm:grid-cols-1 gap-x-2 gap-y-24 lg:gap-y-5">
+        
+     
+         
+
+            volume 1-->
+
+           
+           
+            
+            
             
             
 
-            <!--volume 2-->
+            <!--volume 2
             
-            <div class="mx-auto lg:max-h-sm lg:max-w-[15rem]">
+                <div class="mx-auto lg:max-h-sm lg:max-w-[15rem]">
 
-                    <a href="../publications/volume1/">
+                    <a href="{{ .RelPermalink }}">
                     <img src="/img/dcit_slip-cover-front-flat_1680x2200.png"
                     class="hover:bg-red hover:shadow-2xl hover:shadow-red hover:rounded-xl"></a>
 
                 </div>
 
-             <!--volume 3-->
+            volume 3
 
-             <div class="mx-auto lg:max-h-sm lg:max-w-[15rem]">
+                <div class="mx-auto lg:max-h-sm lg:max-w-[15rem]">
 
-                <a href="../publications/volume1/">
+                    <a href="{{ .RelPermalink }}">
                 <img src="/img/cover2.png"
                 class="hover:bg-red hover:shadow-2xl hover:shadow-red hover:rounded-xl"></a>
 
-            </div>
+                </div>
 
-            <!--volume 4-->
+           volume 4
 
-            <div class="mx-auto lg:max-h-sm lg:max-w-[15rem]">
+                <div class="mx-auto lg:max-h-sm lg:max-w-[15rem]">
 
-                <a href="../publications/volume1/">
+                    <a href="{{ .RelPermalink }}">
                 <img src="/img/6731750107_c1863542b8_h.jpg"
                 class="hover:bg-red hover:shadow-2xl hover:shadow-red hover:rounded-xl"></a>
 
-            </div>
+                </div>
+         
+
+           
         
-        </div></div>
+        </div>-->
+    
+    </div>
         
 
    

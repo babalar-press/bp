@@ -1,7 +1,7 @@
 ---
         Title: "О нас"
-        Layout: "about"
-        Type: "ru"
+        Layout: "about_ru"
+        Type: "about"
         Draft: "false"
 ---
 
