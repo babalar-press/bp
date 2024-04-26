@@ -138,6 +138,7 @@
       "lg:h-full",
       "lg:h-screen",
       "lg:leading-[1.5rem]",
+      "lg:leading-[1.9rem]",
       "lg:leading-tight",
       "lg:mask-size-[11.8rem]",
       "lg:max-h-[100%]",

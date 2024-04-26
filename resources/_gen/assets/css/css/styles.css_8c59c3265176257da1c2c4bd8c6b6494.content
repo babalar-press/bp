@@ -1657,6 +1657,10 @@ html {
     line-height: 1.5rem;
   }
 
+  .lg\:leading-\[1\.9rem\] {
+    line-height: 1.9rem;
+  }
+
   .lg\:leading-tight {
     line-height: 1.25;
   }
