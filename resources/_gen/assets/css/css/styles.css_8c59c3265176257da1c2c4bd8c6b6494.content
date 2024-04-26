@@ -1385,6 +1385,10 @@ html {
     gap: 2.5rem;
   }
 
+  .md\:gap-y-10 {
+    row-gap: 2.5rem;
+  }
+
   .md\:rounded-full {
     border-radius: 9999px;
   }
